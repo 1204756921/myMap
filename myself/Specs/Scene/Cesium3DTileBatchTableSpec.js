@@ -1,15 +1,15 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { HeadingPitchRange } from "../../Source/Cesium.js";
-import { Matrix2 } from "../../Source/Cesium.js";
-import { Matrix3 } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { ContextLimits } from "../../Source/Cesium.js";
-import { Batched3DModel3DTileContent } from "../../Source/Cesium.js";
-import { Cesium3DTileBatchTable } from "../../Source/Cesium.js";
-import { Cesium3DTileStyle } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { HeadingPitchRange } from "../../Source/Mcs.js";
+import { Matrix2 } from "../../Source/Mcs.js";
+import { Matrix3 } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { ContextLimits } from "../../Source/Mcs.js";
+import { Batched3DModel3DTileContent } from "../../Source/Mcs.js";
+import { Cesium3DTileBatchTable } from "../../Source/Mcs.js";
+import { Cesium3DTileStyle } from "../../Source/Mcs.js";
 import Cesium3DTilesTester from "../Cesium3DTilesTester.js";
 import createScene from "../createScene.js";
 

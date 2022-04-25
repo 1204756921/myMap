@@ -1,6 +1,6 @@
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { ConditionsExpression } from "../../Source/Cesium.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { ConditionsExpression } from "../../Source/Mcs.js";
 
 describe("Scene/ConditionsExpression", function () {
   function MockFeature(value) {

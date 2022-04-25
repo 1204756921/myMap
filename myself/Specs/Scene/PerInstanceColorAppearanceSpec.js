@@ -1,10 +1,10 @@
-import { ColorGeometryInstanceAttribute } from "../../Source/Cesium.js";
-import { GeometryInstance } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { RectangleGeometry } from "../../Source/Cesium.js";
-import { Appearance } from "../../Source/Cesium.js";
-import { PerInstanceColorAppearance } from "../../Source/Cesium.js";
-import { Primitive } from "../../Source/Cesium.js";
+import { ColorGeometryInstanceAttribute } from "../../Source/Mcs.js";
+import { GeometryInstance } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { RectangleGeometry } from "../../Source/Mcs.js";
+import { Appearance } from "../../Source/Mcs.js";
+import { PerInstanceColorAppearance } from "../../Source/Mcs.js";
+import { Primitive } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

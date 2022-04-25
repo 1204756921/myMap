@@ -1,13 +1,13 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { Event } from "../../Source/Cesium.js";
-import { ExtrapolationType } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { Quaternion } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
-import { CallbackProperty } from "../../Source/Cesium.js";
-import { SampledPositionProperty } from "../../Source/Cesium.js";
-import { VelocityOrientationProperty } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { Event } from "../../Source/Mcs.js";
+import { ExtrapolationType } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Quaternion } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
+import { CallbackProperty } from "../../Source/Mcs.js";
+import { SampledPositionProperty } from "../../Source/Mcs.js";
+import { VelocityOrientationProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/VelocityOrientationProperty", function () {
   var time = JulianDate.now();

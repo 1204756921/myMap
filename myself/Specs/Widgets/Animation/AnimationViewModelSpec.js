@@ -1,8 +1,8 @@
-import { ClockRange } from "../../../Source/Cesium.js";
-import { ClockStep } from "../../../Source/Cesium.js";
-import { JulianDate } from "../../../Source/Cesium.js";
-import { AnimationViewModel } from "../../../Source/Cesium.js";
-import { ClockViewModel } from "../../../Source/Cesium.js";
+import { ClockRange } from "../../../Source/Mcs.js";
+import { ClockStep } from "../../../Source/Mcs.js";
+import { JulianDate } from "../../../Source/Mcs.js";
+import { AnimationViewModel } from "../../../Source/Mcs.js";
+import { ClockViewModel } from "../../../Source/Mcs.js";
 
 describe("Widgets/Animation/AnimationViewModel", function () {
   var clockViewModel;

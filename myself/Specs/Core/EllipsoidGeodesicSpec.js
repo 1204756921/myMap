@@ -1,7 +1,7 @@
-import { Cartographic } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { EllipsoidGeodesic } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { EllipsoidGeodesic } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
 
 describe("Core/EllipsoidGeodesic", function () {
   it("throws without start", function () {

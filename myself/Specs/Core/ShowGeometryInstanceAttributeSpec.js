@@ -1,5 +1,5 @@
-import { ComponentDatatype } from "../../Source/Cesium.js";
-import { ShowGeometryInstanceAttribute } from "../../Source/Cesium.js";
+import { ComponentDatatype } from "../../Source/Mcs.js";
+import { ShowGeometryInstanceAttribute } from "../../Source/Mcs.js";
 
 describe("Core/ShowGeometryInstanceAttribute", function () {
   it("constructor", function () {

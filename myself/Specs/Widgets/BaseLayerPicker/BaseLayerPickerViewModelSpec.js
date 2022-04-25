@@ -1,7 +1,7 @@
-import { EllipsoidTerrainProvider } from "../../../Source/Cesium.js";
-import { ImageryLayerCollection } from "../../../Source/Cesium.js";
-import { BaseLayerPickerViewModel } from "../../../Source/Cesium.js";
-import { ProviderViewModel } from "../../../Source/Cesium.js";
+import { EllipsoidTerrainProvider } from "../../../Source/Mcs.js";
+import { ImageryLayerCollection } from "../../../Source/Mcs.js";
+import { BaseLayerPickerViewModel } from "../../../Source/Mcs.js";
+import { ProviderViewModel } from "../../../Source/Mcs.js";
 
 describe("Widgets/BaseLayerPicker/BaseLayerPickerViewModel", function () {
   function MockGlobe() {

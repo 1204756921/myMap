@@ -1,7 +1,7 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { ConeEmitter } from "../../Source/Cesium.js";
-import { Particle } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { ConeEmitter } from "../../Source/Mcs.js";
+import { Particle } from "../../Source/Mcs.js";
 
 describe("Scene/ConeEmitter", function () {
   it("default constructor", function () {

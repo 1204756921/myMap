@@ -1,4 +1,4 @@
-import { knockout } from "../../Source/Cesium.js";
+import { knockout } from "../../Source/Mcs.js";
 
 describe("ThirdParty/knockout", function () {
   it("can track all properties", function () {

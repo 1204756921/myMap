@@ -19,11 +19,20 @@ export default class TilesetLayer extends ProviderLayer {
         this.id = defaultValue(options.id, (new Date()).getTime());
         this.name = defaultValue(options.name, 'TilesetLayer');
         this._show = defaultValue(options.show, true);
-        this.url = options.url;
         this.height = defaultValue(options.height, 0);
         this.type = 'TilesetLayer';
+        this._init(options)
+    }
+    _init(options){
         this.layer = new Cesium3DTileset({
-            url: this.url
+            url: options.url,
+            show:defaultValue(options.show,true),
+            modelMatrix:defaultValue(options.modelMatrix,Matrix4.IDENTITY),
+            maximumScreenSpaceError:defaultValue(options.maximumScreenSpaceError,16),
+            maximumMemoryUsage:defaultValue(options.maximumMemoryUsage,512),
+            cullWithChildrenBounds:defaultValue(options.cullWithChildrenBounds,true),
+            cullRequestsWhileMoving:defaultValue(options.cullRequestsWhileMoving,true),
+            cullRequestsWhileMovingMultiplier:defaultValue(options.cullRequestsWhileMovingMultiplier,60)
         });
     }
     set show(val) {

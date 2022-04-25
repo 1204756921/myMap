@@ -1,9 +1,9 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartographic } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { WebMercatorProjection } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { WebMercatorProjection } from "../../Source/Mcs.js";
 
 describe("Core/WebMercatorProjection", function () {
   it("construct0", function () {

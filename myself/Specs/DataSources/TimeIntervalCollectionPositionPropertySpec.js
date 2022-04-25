@@ -1,10 +1,10 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { ReferenceFrame } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { PositionProperty } from "../../Source/Cesium.js";
-import { TimeIntervalCollectionPositionProperty } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { ReferenceFrame } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { PositionProperty } from "../../Source/Mcs.js";
+import { TimeIntervalCollectionPositionProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/TimeIntervalCollectionPositionProperty", function () {
   it("default constructor has expected values", function () {

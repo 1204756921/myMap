@@ -1,6 +1,6 @@
-import { Event } from "../Source/Cesium.js";
-import { EntityCluster } from "../Source/Cesium.js";
-import { EntityCollection } from "../Source/Cesium.js";
+import { Event } from "../Source/Mcs.js";
+import { EntityCluster } from "../Source/Mcs.js";
+import { EntityCollection } from "../Source/Mcs.js";
 
 function MockDataSource() {
   //Values to be fiddled with by the test

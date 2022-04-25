@@ -1,19 +1,19 @@
-import { AttributeCompression } from "../../Source/Cesium.js";
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Intersect } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { PixelFormat } from "../../Source/Cesium.js";
-import { Plane } from "../../Source/Cesium.js";
-import { PixelDatatype } from "../../Source/Cesium.js";
-import { TextureMinificationFilter } from "../../Source/Cesium.js";
-import { TextureWrap } from "../../Source/Cesium.js";
-import { ClippingPlane } from "../../Source/Cesium.js";
-import { ClippingPlaneCollection } from "../../Source/Cesium.js";
+import { AttributeCompression } from "../../Source/Mcs.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Intersect } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { PixelFormat } from "../../Source/Mcs.js";
+import { Plane } from "../../Source/Mcs.js";
+import { PixelDatatype } from "../../Source/Mcs.js";
+import { TextureMinificationFilter } from "../../Source/Mcs.js";
+import { TextureWrap } from "../../Source/Mcs.js";
+import { ClippingPlane } from "../../Source/Mcs.js";
+import { ClippingPlaneCollection } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe("Scene/ClippingPlaneCollection", function () {

@@ -1,8 +1,8 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { DiscardMissingTileImagePolicy } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { DiscardMissingTileImagePolicy } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Scene/DiscardMissingTileImagePolicy", function () {
   var supportsImageBitmapOptions;

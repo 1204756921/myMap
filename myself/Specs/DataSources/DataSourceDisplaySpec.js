@@ -1,16 +1,16 @@
-import { ApproximateTerrainHeights } from "../../Source/Cesium.js";
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Iso8601 } from "../../Source/Cesium.js";
-import { BoundingSphereState } from "../../Source/Cesium.js";
-import { DataSourceCollection } from "../../Source/Cesium.js";
-import { DataSourceDisplay } from "../../Source/Cesium.js";
-import { Entity } from "../../Source/Cesium.js";
-import { GroundPolylinePrimitive } from "../../Source/Cesium.js";
-import { GroundPrimitive } from "../../Source/Cesium.js";
+import { ApproximateTerrainHeights } from "../../Source/Mcs.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Iso8601 } from "../../Source/Mcs.js";
+import { BoundingSphereState } from "../../Source/Mcs.js";
+import { DataSourceCollection } from "../../Source/Mcs.js";
+import { DataSourceDisplay } from "../../Source/Mcs.js";
+import { Entity } from "../../Source/Mcs.js";
+import { GroundPolylinePrimitive } from "../../Source/Mcs.js";
+import { GroundPrimitive } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 import MockDataSource from "../MockDataSource.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe(
   "DataSources/DataSourceDisplay",

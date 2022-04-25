@@ -1,7 +1,7 @@
-import { defined } from "../../Source/Cesium.js";
-import { EarthOrientationParameters } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { TimeStandard } from "../../Source/Cesium.js";
+import { defined } from "../../Source/Mcs.js";
+import { EarthOrientationParameters } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { TimeStandard } from "../../Source/Mcs.js";
 
 describe("Core/EarthOrientationParameters", function () {
   var officialLeapSeconds;

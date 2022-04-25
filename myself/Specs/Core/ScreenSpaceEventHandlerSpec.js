@@ -1,11 +1,11 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { clone } from "../../Source/Cesium.js";
-import { combine } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { FeatureDetection } from "../../Source/Cesium.js";
-import { KeyboardEventModifier } from "../../Source/Cesium.js";
-import { ScreenSpaceEventHandler } from "../../Source/Cesium.js";
-import { ScreenSpaceEventType } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { clone } from "../../Source/Mcs.js";
+import { combine } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { FeatureDetection } from "../../Source/Mcs.js";
+import { KeyboardEventModifier } from "../../Source/Mcs.js";
+import { ScreenSpaceEventHandler } from "../../Source/Mcs.js";
+import { ScreenSpaceEventType } from "../../Source/Mcs.js";
 import DomEventSimulator from "../DomEventSimulator.js";
 
 describe("Core/ScreenSpaceEventHandler", function () {

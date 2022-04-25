@@ -1,5 +1,5 @@
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { QuarticRealPolynomial } from "../../Source/Cesium.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { QuarticRealPolynomial } from "../../Source/Mcs.js";
 
 describe("Core/QuarticRealPolynomial", function () {
   it("discriminant throws without a", function () {

@@ -1,10 +1,10 @@
-import { Color } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { PostProcessStage } from "../../Source/Cesium.js";
-import { PostProcessStageComposite } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { PostProcessStage } from "../../Source/Mcs.js";
+import { PostProcessStageComposite } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe(
   "Scene/PostProcessStageComposite",

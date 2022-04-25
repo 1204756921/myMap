@@ -1,12 +1,12 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { ExtrapolationType } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { LagrangePolynomialApproximation } from "../../Source/Cesium.js";
-import { LinearApproximation } from "../../Source/Cesium.js";
-import { ReferenceFrame } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { PositionProperty } from "../../Source/Cesium.js";
-import { SampledPositionProperty } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { ExtrapolationType } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { LagrangePolynomialApproximation } from "../../Source/Mcs.js";
+import { LinearApproximation } from "../../Source/Mcs.js";
+import { ReferenceFrame } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { PositionProperty } from "../../Source/Mcs.js";
+import { SampledPositionProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/SampledPositionProperty", function () {
   it("constructor sets expected defaults", function () {

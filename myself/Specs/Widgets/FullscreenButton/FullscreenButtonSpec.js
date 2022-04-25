@@ -1,4 +1,4 @@
-import { FullscreenButton } from "../../../Source/Cesium.js";
+import { FullscreenButton } from "../../../Source/Mcs.js";
 
 describe("Widgets/FullscreenButton/FullscreenButton", function () {
   it("constructor sets default values", function () {

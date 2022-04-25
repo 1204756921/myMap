@@ -1,9 +1,9 @@
-import { Color } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { PolylineOutlineMaterialProperty } from "../../Source/Cesium.js";
-import { TimeIntervalCollectionProperty } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { PolylineOutlineMaterialProperty } from "../../Source/Mcs.js";
+import { TimeIntervalCollectionProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/PolylineOutlineMaterialProperty", function () {
   it("constructor provides the expected defaults", function () {

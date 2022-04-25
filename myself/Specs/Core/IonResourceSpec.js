@@ -1,9 +1,9 @@
-import { Ion } from "../../Source/Cesium.js";
-import { IonResource } from "../../Source/Cesium.js";
-import { RequestErrorEvent } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { RuntimeError } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Ion } from "../../Source/Mcs.js";
+import { IonResource } from "../../Source/Mcs.js";
+import { RequestErrorEvent } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { RuntimeError } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/IonResource", function () {
   var assetId = 123890213;

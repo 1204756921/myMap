@@ -1,22 +1,22 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartographic } from "../../Source/Cesium.js";
-import { GeographicProjection } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { getAbsoluteUri } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { Request } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { WebMercatorProjection } from "../../Source/Cesium.js";
-import { WebMercatorTilingScheme } from "../../Source/Cesium.js";
-import { TileMapServiceImageryProvider } from "../../Source/Cesium.js";
-import { Imagery } from "../../Source/Cesium.js";
-import { ImageryLayer } from "../../Source/Cesium.js";
-import { ImageryState } from "../../Source/Cesium.js";
-import { UrlTemplateImageryProvider } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { GeographicProjection } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { getAbsoluteUri } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { Request } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { WebMercatorProjection } from "../../Source/Mcs.js";
+import { WebMercatorTilingScheme } from "../../Source/Mcs.js";
+import { TileMapServiceImageryProvider } from "../../Source/Mcs.js";
+import { Imagery } from "../../Source/Mcs.js";
+import { ImageryLayer } from "../../Source/Mcs.js";
+import { ImageryState } from "../../Source/Mcs.js";
+import { UrlTemplateImageryProvider } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Scene/TileMapServiceImageryProvider", function () {
   var validSampleXmlString =

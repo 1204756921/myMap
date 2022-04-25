@@ -1,5 +1,5 @@
 import createScene from "../../createScene.js";
-import { SelectionIndicator } from "../../../Source/Cesium.js";
+import { SelectionIndicator } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/SelectionIndicator/SelectionIndicator",

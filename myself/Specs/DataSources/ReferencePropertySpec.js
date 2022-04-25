@@ -1,14 +1,14 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { ReferenceFrame } from "../../Source/Cesium.js";
-import { BillboardGraphics } from "../../Source/Cesium.js";
-import { ColorMaterialProperty } from "../../Source/Cesium.js";
-import { ConstantPositionProperty } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { Entity } from "../../Source/Cesium.js";
-import { EntityCollection } from "../../Source/Cesium.js";
-import { ReferenceProperty } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { ReferenceFrame } from "../../Source/Mcs.js";
+import { BillboardGraphics } from "../../Source/Mcs.js";
+import { ColorMaterialProperty } from "../../Source/Mcs.js";
+import { ConstantPositionProperty } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { Entity } from "../../Source/Mcs.js";
+import { EntityCollection } from "../../Source/Mcs.js";
+import { ReferenceProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/ReferenceProperty", function () {
   var time = JulianDate.now();

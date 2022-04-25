@@ -1,5 +1,5 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Ray } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Ray } from "../../Source/Mcs.js";
 
 describe("Core/Ray", function () {
   it("default constructor create zero valued Ray", function () {

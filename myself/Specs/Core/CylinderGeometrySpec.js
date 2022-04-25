@@ -1,7 +1,7 @@
-import { arrayFill } from "../../Source/Cesium.js";
-import { CylinderGeometry } from "../../Source/Cesium.js";
-import { GeometryOffsetAttribute } from "../../Source/Cesium.js";
-import { VertexFormat } from "../../Source/Cesium.js";
+import { arrayFill } from "../../Source/Mcs.js";
+import { CylinderGeometry } from "../../Source/Mcs.js";
+import { GeometryOffsetAttribute } from "../../Source/Mcs.js";
+import { VertexFormat } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/CylinderGeometry", function () {

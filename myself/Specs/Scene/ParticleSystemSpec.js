@@ -1,11 +1,11 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { CircleEmitter } from "../../Source/Cesium.js";
-import { ParticleBurst } from "../../Source/Cesium.js";
-import { ParticleSystem } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { CircleEmitter } from "../../Source/Mcs.js";
+import { ParticleBurst } from "../../Source/Mcs.js";
+import { ParticleSystem } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe("Scene/ParticleSystem", function () {

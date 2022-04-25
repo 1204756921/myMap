@@ -1,9 +1,9 @@
-import { Clock } from "../../Source/Cesium.js";
-import { FeatureDetection } from "../../Source/Cesium.js";
-import { Iso8601 } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { VideoSynchronizer } from "../../Source/Cesium.js";
+import { Clock } from "../../Source/Mcs.js";
+import { FeatureDetection } from "../../Source/Mcs.js";
+import { Iso8601 } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { VideoSynchronizer } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
 
 describe("Core/VideoSynchronizer", function () {

@@ -1,8 +1,8 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { EllipsoidPrimitive } from "../../Source/Cesium.js";
-import { Material } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { EllipsoidPrimitive } from "../../Source/Mcs.js";
+import { Material } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

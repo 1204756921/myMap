@@ -1,6 +1,6 @@
-import { OpenCageGeocoderService } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { OpenCageGeocoderService } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/OpenCageGeocoderService", function () {
   var endpoint = "https://api.opencagedata.com/geocode/v1/";

@@ -1,6 +1,6 @@
-import { ComponentDatatype } from "../../Source/Cesium.js";
-import { DistanceDisplayCondition } from "../../Source/Cesium.js";
-import { DistanceDisplayConditionGeometryInstanceAttribute } from "../../Source/Cesium.js";
+import { ComponentDatatype } from "../../Source/Mcs.js";
+import { DistanceDisplayCondition } from "../../Source/Mcs.js";
+import { DistanceDisplayConditionGeometryInstanceAttribute } from "../../Source/Mcs.js";
 
 describe("Core/DistanceDisplayConditionGeometryInstanceAttribute", function () {
   it("constructor", function () {

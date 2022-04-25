@@ -1,8 +1,8 @@
-import { Color } from "../../Source/Cesium.js";
-import { DistanceDisplayCondition } from "../../Source/Cesium.js";
-import { ColorMaterialProperty } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { PathGraphics } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { DistanceDisplayCondition } from "../../Source/Mcs.js";
+import { ColorMaterialProperty } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { PathGraphics } from "../../Source/Mcs.js";
 
 describe("DataSources/PathGraphics", function () {
   it("creates expected instance from raw assignment and construction", function () {

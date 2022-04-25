@@ -1,11 +1,11 @@
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { Matrix3 } from "../../Source/Cesium.js";
-import { Simon1994PlanetaryPositions } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
-import { Moon } from "../../Source/Cesium.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { Matrix3 } from "../../Source/Mcs.js";
+import { Simon1994PlanetaryPositions } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
+import { Moon } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

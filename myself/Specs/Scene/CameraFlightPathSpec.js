@@ -1,9 +1,9 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartographic } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { OrthographicOffCenterFrustum } from "../../Source/Cesium.js";
-import { CameraFlightPath } from "../../Source/Cesium.js";
-import { SceneMode } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { OrthographicOffCenterFrustum } from "../../Source/Mcs.js";
+import { CameraFlightPath } from "../../Source/Mcs.js";
+import { SceneMode } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

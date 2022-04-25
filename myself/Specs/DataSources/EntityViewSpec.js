@@ -1,10 +1,10 @@
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { ConstantPositionProperty } from "../../Source/Cesium.js";
-import { Entity } from "../../Source/Cesium.js";
-import { EntityView } from "../../Source/Cesium.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { ConstantPositionProperty } from "../../Source/Mcs.js";
+import { Entity } from "../../Source/Mcs.js";
+import { EntityView } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

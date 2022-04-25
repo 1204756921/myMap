@@ -1,6 +1,6 @@
-import { Color } from "../../Source/Cesium.js";
-import { EasingFunction } from "../../Source/Cesium.js";
-import { TweenCollection } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { EasingFunction } from "../../Source/Mcs.js";
+import { TweenCollection } from "../../Source/Mcs.js";
 
 describe(
   "Scene/TweenCollection",

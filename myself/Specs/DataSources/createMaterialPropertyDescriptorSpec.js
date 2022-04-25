@@ -1,8 +1,8 @@
-import { Color } from "../../Source/Cesium.js";
-import { Event } from "../../Source/Cesium.js";
-import { ColorMaterialProperty } from "../../Source/Cesium.js";
-import { createMaterialPropertyDescriptor } from "../../Source/Cesium.js";
-import { ImageMaterialProperty } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { Event } from "../../Source/Mcs.js";
+import { ColorMaterialProperty } from "../../Source/Mcs.js";
+import { createMaterialPropertyDescriptor } from "../../Source/Mcs.js";
+import { ImageMaterialProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/createMaterialPropertyDescriptor", function () {
   function MockGraphics() {

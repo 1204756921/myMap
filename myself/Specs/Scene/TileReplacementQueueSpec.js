@@ -1,8 +1,8 @@
-import { defined } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { QuadtreeTile } from "../../Source/Cesium.js";
-import { QuadtreeTileLoadState } from "../../Source/Cesium.js";
-import { TileReplacementQueue } from "../../Source/Cesium.js";
+import { defined } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { QuadtreeTile } from "../../Source/Mcs.js";
+import { QuadtreeTileLoadState } from "../../Source/Mcs.js";
+import { TileReplacementQueue } from "../../Source/Mcs.js";
 
 describe("Scene/TileReplacementQueue", function () {
   function Tile(num, loadedState, upsampledState) {

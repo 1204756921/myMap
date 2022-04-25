@@ -1,4 +1,4 @@
-import { NearFarScalar } from "../../Source/Cesium.js";
+import { NearFarScalar } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/NearFarScalar", function () {

@@ -1,25 +1,25 @@
-import { arraySlice } from "../../Source/Cesium.js";
-import { AttributeCompression } from "../../Source/Cesium.js";
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { BoxGeometry } from "../../Source/Cesium.js";
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { ComponentDatatype } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { EllipsoidGeometry } from "../../Source/Cesium.js";
-import { EncodedCartesian3 } from "../../Source/Cesium.js";
-import { GeographicProjection } from "../../Source/Cesium.js";
-import { Geometry } from "../../Source/Cesium.js";
-import { GeometryAttribute } from "../../Source/Cesium.js";
-import { GeometryInstance } from "../../Source/Cesium.js";
-import { GeometryPipeline } from "../../Source/Cesium.js";
-import { GeometryType } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { PolygonGeometry } from "../../Source/Cesium.js";
-import { PrimitiveType } from "../../Source/Cesium.js";
-import { Tipsify } from "../../Source/Cesium.js";
-import { VertexFormat } from "../../Source/Cesium.js";
+import { arraySlice } from "../../Source/Mcs.js";
+import { AttributeCompression } from "../../Source/Mcs.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { BoxGeometry } from "../../Source/Mcs.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { ComponentDatatype } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { EllipsoidGeometry } from "../../Source/Mcs.js";
+import { EncodedCartesian3 } from "../../Source/Mcs.js";
+import { GeographicProjection } from "../../Source/Mcs.js";
+import { Geometry } from "../../Source/Mcs.js";
+import { GeometryAttribute } from "../../Source/Mcs.js";
+import { GeometryInstance } from "../../Source/Mcs.js";
+import { GeometryPipeline } from "../../Source/Mcs.js";
+import { GeometryType } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { PolygonGeometry } from "../../Source/Mcs.js";
+import { PrimitiveType } from "../../Source/Mcs.js";
+import { Tipsify } from "../../Source/Mcs.js";
+import { VertexFormat } from "../../Source/Mcs.js";
 
 describe("Core/GeometryPipeline", function () {
   it("converts triangles to wireframe in place", function () {

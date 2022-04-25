@@ -1,10 +1,10 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { HeadingPitchRange } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { KmlLookAt } from "../../Source/Cesium.js";
-import { KmlTour } from "../../Source/Cesium.js";
-import { KmlTourFlyTo } from "../../Source/Cesium.js";
-import { KmlTourWait } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { HeadingPitchRange } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { KmlLookAt } from "../../Source/Mcs.js";
+import { KmlTour } from "../../Source/Mcs.js";
+import { KmlTourFlyTo } from "../../Source/Mcs.js";
+import { KmlTourWait } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
 
 describe("DataSources/KmlTour", function () {

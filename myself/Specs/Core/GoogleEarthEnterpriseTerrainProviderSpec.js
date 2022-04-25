@@ -1,17 +1,17 @@
-import { defaultValue } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseMetadata } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseTerrainData } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseTerrainProvider } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseTileInformation } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Request } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { TerrainProvider } from "../../Source/Cesium.js";
+import { defaultValue } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseMetadata } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseTerrainData } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseTerrainProvider } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseTileInformation } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Request } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { TerrainProvider } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/GoogleEarthEnterpriseTerrainProvider", function () {
   function installMockGetQuadTreePacket() {

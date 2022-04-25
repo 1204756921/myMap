@@ -1,4 +1,4 @@
-import { FeatureDetection } from "../../Source/Cesium.js";
+import { FeatureDetection } from "../../Source/Mcs.js";
 
 describe("Core/FeatureDetection", function () {
   //generally, these tests just make sure the function runs, the test can't expect a value of true or false

@@ -1,9 +1,9 @@
-import { AxisAlignedBoundingBox } from "../../Source/Cesium.js";
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { CullingVolume } from "../../Source/Cesium.js";
-import { Intersect } from "../../Source/Cesium.js";
-import { PerspectiveFrustum } from "../../Source/Cesium.js";
+import { AxisAlignedBoundingBox } from "../../Source/Mcs.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { CullingVolume } from "../../Source/Mcs.js";
+import { Intersect } from "../../Source/Mcs.js";
+import { PerspectiveFrustum } from "../../Source/Mcs.js";
 
 describe("Core/CullingVolume", function () {
   var cullingVolume;

@@ -1,7 +1,7 @@
-import { BoundingRectangle } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { EncodedCartesian3 } from "../../Source/Cesium.js";
+import { BoundingRectangle } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { EncodedCartesian3 } from "../../Source/Mcs.js";
 import createCamera from "../createCamera.js";
 import createContext from "../createContext.js";
 import createFrameState from "../createFrameState.js";

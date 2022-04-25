@@ -1,6 +1,6 @@
-import { Color } from "../../Source/Cesium.js";
-import { ColorGeometryInstanceAttribute } from "../../Source/Cesium.js";
-import { ComponentDatatype } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { ColorGeometryInstanceAttribute } from "../../Source/Mcs.js";
+import { ComponentDatatype } from "../../Source/Mcs.js";
 
 describe("Core/ColorGeometryInstanceAttribute", function () {
   it("constructor", function () {

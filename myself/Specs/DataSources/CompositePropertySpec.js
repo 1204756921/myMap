@@ -1,9 +1,9 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { CompositeProperty } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { CompositeProperty } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/CompositeProperty", function () {
   it("default constructor has expected values", function () {

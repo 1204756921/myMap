@@ -1,5 +1,5 @@
-import { FeatureDetection } from "../../Source/Cesium.js";
-import { Fullscreen } from "../../Source/Cesium.js";
+import { FeatureDetection } from "../../Source/Mcs.js";
+import { Fullscreen } from "../../Source/Mcs.js";
 
 describe("Core/Fullscreen", function () {
   it("can tell if fullscreen is supported", function () {

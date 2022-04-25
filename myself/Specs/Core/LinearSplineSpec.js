@@ -1,5 +1,5 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { LinearSpline } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { LinearSpline } from "../../Source/Mcs.js";
 
 describe("Core/LinearSpline", function () {
   var points;

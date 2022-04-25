@@ -1,6 +1,6 @@
-import { Iau2000Orientation } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { TimeStandard } from "../../Source/Cesium.js";
+import { Iau2000Orientation } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { TimeStandard } from "../../Source/Mcs.js";
 
 describe("Core/Iau2000Orientation", function () {
   it("compute moon", function () {

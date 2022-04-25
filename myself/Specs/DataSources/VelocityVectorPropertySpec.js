@@ -1,12 +1,12 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Event } from "../../Source/Cesium.js";
-import { ExtrapolationType } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { CallbackProperty } from "../../Source/Cesium.js";
-import { ConstantPositionProperty } from "../../Source/Cesium.js";
-import { SampledPositionProperty } from "../../Source/Cesium.js";
-import { VelocityVectorProperty } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Event } from "../../Source/Mcs.js";
+import { ExtrapolationType } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { CallbackProperty } from "../../Source/Mcs.js";
+import { ConstantPositionProperty } from "../../Source/Mcs.js";
+import { SampledPositionProperty } from "../../Source/Mcs.js";
+import { VelocityVectorProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/VelocityVectorProperty", function () {
   var time = JulianDate.now();

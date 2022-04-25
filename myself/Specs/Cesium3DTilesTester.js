@@ -1,12 +1,12 @@
-import { arrayFill } from "../Source/Cesium.js";
-import { Color } from "../Source/Cesium.js";
-import { defaultValue } from "../Source/Cesium.js";
-import { defined } from "../Source/Cesium.js";
-import { JulianDate } from "../Source/Cesium.js";
-import { Resource } from "../Source/Cesium.js";
-import { Cesium3DTileContentFactory } from "../Source/Cesium.js";
-import { Cesium3DTileset } from "../Source/Cesium.js";
-import { TileBoundingSphere } from "../Source/Cesium.js";
+import { arrayFill } from "../Source/Mcs.js";
+import { Color } from "../Source/Mcs.js";
+import { defaultValue } from "../Source/Mcs.js";
+import { defined } from "../Source/Mcs.js";
+import { JulianDate } from "../Source/Mcs.js";
+import { Resource } from "../Source/Mcs.js";
+import { Cesium3DTileContentFactory } from "../Source/Mcs.js";
+import { Cesium3DTileset } from "../Source/Mcs.js";
+import { TileBoundingSphere } from "../Source/Mcs.js";
 import pollToPromise from "./pollToPromise.js";
 
 var mockTile = {

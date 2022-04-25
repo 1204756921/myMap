@@ -1,9 +1,9 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { combine } from "../../Source/Cesium.js";
-import { FeatureDetection } from "../../Source/Cesium.js";
-import { KeyboardEventModifier } from "../../Source/Cesium.js";
-import { CameraEventAggregator } from "../../Source/Cesium.js";
-import { CameraEventType } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { combine } from "../../Source/Mcs.js";
+import { FeatureDetection } from "../../Source/Mcs.js";
+import { KeyboardEventModifier } from "../../Source/Mcs.js";
+import { CameraEventAggregator } from "../../Source/Mcs.js";
+import { CameraEventType } from "../../Source/Mcs.js";
 import createCanvas from "../createCanvas.js";
 import DomEventSimulator from "../DomEventSimulator.js";
 

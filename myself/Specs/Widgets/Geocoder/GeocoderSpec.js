@@ -1,5 +1,5 @@
 import createScene from "../../createScene.js";
-import { Geocoder } from "../../../Source/Cesium.js";
+import { Geocoder } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/Geocoder/Geocoder",

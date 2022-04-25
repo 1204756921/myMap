@@ -1,8 +1,8 @@
-import { defined } from "../../../Source/Cesium.js";
+import { defined } from "../../../Source/Mcs.js";
 import pollToPromise from "../../pollToPromise.js";
-import { Animation } from "../../../Source/Cesium.js";
-import { AnimationViewModel } from "../../../Source/Cesium.js";
-import { ClockViewModel } from "../../../Source/Cesium.js";
+import { Animation } from "../../../Source/Mcs.js";
+import { AnimationViewModel } from "../../../Source/Mcs.js";
+import { ClockViewModel } from "../../../Source/Mcs.js";
 
 describe("Widgets/Animation/Animation", function () {
   var container;

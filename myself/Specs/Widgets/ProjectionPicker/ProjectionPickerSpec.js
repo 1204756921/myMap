@@ -1,7 +1,7 @@
-import { FeatureDetection } from "../../../Source/Cesium.js";
+import { FeatureDetection } from "../../../Source/Mcs.js";
 import createScene from "../../createScene.js";
 import DomEventSimulator from "../../DomEventSimulator.js";
-import { ProjectionPicker } from "../../../Source/Cesium.js";
+import { ProjectionPicker } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/ProjectionPicker/ProjectionPicker",

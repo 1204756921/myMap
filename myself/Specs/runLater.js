@@ -1,5 +1,5 @@
-import { defaultValue } from "../Source/Cesium.js";
-import { when } from "../Source/Cesium.js";
+import { defaultValue } from "../Source/Mcs.js";
+import { when } from "../Source/Mcs.js";
 
 function runLater(functionToRunLater, milliseconds) {
   milliseconds = defaultValue(milliseconds, 0);

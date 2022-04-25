@@ -1,19 +1,19 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { PixelFormat } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { ClearCommand } from "../../Source/Cesium.js";
-import { ContextLimits } from "../../Source/Cesium.js";
-import { CubeMap } from "../../Source/Cesium.js";
-import { PixelDatatype } from "../../Source/Cesium.js";
-import { Sampler } from "../../Source/Cesium.js";
-import { Texture } from "../../Source/Cesium.js";
-import { TextureMagnificationFilter } from "../../Source/Cesium.js";
-import { TextureMinificationFilter } from "../../Source/Cesium.js";
-import { TextureWrap } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { PixelFormat } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { ClearCommand } from "../../Source/Mcs.js";
+import { ContextLimits } from "../../Source/Mcs.js";
+import { CubeMap } from "../../Source/Mcs.js";
+import { PixelDatatype } from "../../Source/Mcs.js";
+import { Sampler } from "../../Source/Mcs.js";
+import { Texture } from "../../Source/Mcs.js";
+import { TextureMagnificationFilter } from "../../Source/Mcs.js";
+import { TextureMinificationFilter } from "../../Source/Mcs.js";
+import { TextureWrap } from "../../Source/Mcs.js";
 import createContext from "../createContext.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe(
   "Renderer/CubeMap",

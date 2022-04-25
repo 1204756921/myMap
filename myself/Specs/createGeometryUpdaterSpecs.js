@@ -1,18 +1,18 @@
-import { Color } from "../Source/Cesium.js";
-import { ColorGeometryInstanceAttribute } from "../Source/Cesium.js";
-import { DistanceDisplayCondition } from "../Source/Cesium.js";
-import { DistanceDisplayConditionGeometryInstanceAttribute } from "../Source/Cesium.js";
-import { JulianDate } from "../Source/Cesium.js";
-import { ShowGeometryInstanceAttribute } from "../Source/Cesium.js";
-import { TimeInterval } from "../Source/Cesium.js";
-import { ColorMaterialProperty } from "../Source/Cesium.js";
-import { ConstantProperty } from "../Source/Cesium.js";
-import { EllipsoidGeometryUpdater } from "../Source/Cesium.js";
-import { Entity } from "../Source/Cesium.js";
-import { GridMaterialProperty } from "../Source/Cesium.js";
-import { SampledProperty } from "../Source/Cesium.js";
-import { TimeIntervalCollectionProperty } from "../Source/Cesium.js";
-import { ShadowMode } from "../Source/Cesium.js";
+import { Color } from "../Source/Mcs.js";
+import { ColorGeometryInstanceAttribute } from "../Source/Mcs.js";
+import { DistanceDisplayCondition } from "../Source/Mcs.js";
+import { DistanceDisplayConditionGeometryInstanceAttribute } from "../Source/Mcs.js";
+import { JulianDate } from "../Source/Mcs.js";
+import { ShowGeometryInstanceAttribute } from "../Source/Mcs.js";
+import { TimeInterval } from "../Source/Mcs.js";
+import { ColorMaterialProperty } from "../Source/Mcs.js";
+import { ConstantProperty } from "../Source/Mcs.js";
+import { EllipsoidGeometryUpdater } from "../Source/Mcs.js";
+import { Entity } from "../Source/Mcs.js";
+import { GridMaterialProperty } from "../Source/Mcs.js";
+import { SampledProperty } from "../Source/Mcs.js";
+import { TimeIntervalCollectionProperty } from "../Source/Mcs.js";
+import { ShadowMode } from "../Source/Mcs.js";
 
 function createGeometryUpdaterSpecs(
   Updater,

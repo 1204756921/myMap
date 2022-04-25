@@ -1,7 +1,7 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { SphereGeometry } from "../../Source/Cesium.js";
-import { VertexFormat } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { SphereGeometry } from "../../Source/Mcs.js";
+import { VertexFormat } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/SphereGeometry", function () {

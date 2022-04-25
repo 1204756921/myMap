@@ -1,19 +1,19 @@
-import { appendForwardSlash } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { queryToObject } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { WebMercatorTilingScheme } from "../../Source/Cesium.js";
-import { BingMapsImageryProvider } from "../../Source/Cesium.js";
-import { BingMapsStyle } from "../../Source/Cesium.js";
-import { DiscardEmptyTileImagePolicy } from "../../Source/Cesium.js";
-import { Imagery } from "../../Source/Cesium.js";
-import { ImageryLayer } from "../../Source/Cesium.js";
-import { ImageryProvider } from "../../Source/Cesium.js";
-import { ImageryState } from "../../Source/Cesium.js";
+import { appendForwardSlash } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { queryToObject } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { WebMercatorTilingScheme } from "../../Source/Mcs.js";
+import { BingMapsImageryProvider } from "../../Source/Mcs.js";
+import { BingMapsStyle } from "../../Source/Mcs.js";
+import { DiscardEmptyTileImagePolicy } from "../../Source/Mcs.js";
+import { Imagery } from "../../Source/Mcs.js";
+import { ImageryLayer } from "../../Source/Mcs.js";
+import { ImageryProvider } from "../../Source/Mcs.js";
+import { ImageryState } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
-import { Uri } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Uri } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Scene/BingMapsImageryProvider", function () {
   var supportsImageBitmapOptions;

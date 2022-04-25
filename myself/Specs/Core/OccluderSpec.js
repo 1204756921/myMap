@@ -1,10 +1,10 @@
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Occluder } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { Visibility } from "../../Source/Cesium.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Occluder } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { Visibility } from "../../Source/Mcs.js";
 
 describe("Core/Occluder", function () {
   it("throws an exception during construction (1 of 3)", function () {

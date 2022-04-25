@@ -148,7 +148,7 @@ export default class McsViewer {
      * @param rotate 水平旋转角度
      * @param angleDown 俯视角度
      */
-    pointToTarget(point, rotate, angleDown) {
+    pointToTarget(point, rotate=0.0, angleDown=-90) {
         this.Viewer.camera.setView({
             destination: new Cartesian3(point.x, point.x, point.z),
             orientation: {

@@ -1,18 +1,18 @@
-import { BoundingRectangle } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { HeadingPitchRange } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { PixelFormat } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
-import { PixelDatatype } from "../../Source/Cesium.js";
-import { Model } from "../../Source/Cesium.js";
-import { PostProcessStage } from "../../Source/Cesium.js";
-import { PostProcessStageSampleMode } from "../../Source/Cesium.js";
+import { BoundingRectangle } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { HeadingPitchRange } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { PixelFormat } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
+import { PixelDatatype } from "../../Source/Mcs.js";
+import { Model } from "../../Source/Mcs.js";
+import { PostProcessStage } from "../../Source/Mcs.js";
+import { PostProcessStageSampleMode } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe(
   "Scene/PostProcessStage",

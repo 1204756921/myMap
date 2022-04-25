@@ -1,4 +1,4 @@
-import { DeveloperError } from "../../Source/Cesium.js";
+import { DeveloperError } from "../../Source/Mcs.js";
 
 describe("Core/DeveloperError", function () {
   var name = "DeveloperError";

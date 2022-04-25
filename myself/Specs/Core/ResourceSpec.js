@@ -1,13 +1,13 @@
-import { DefaultProxy } from "../../Source/Cesium.js";
-import { defaultValue } from "../../Source/Cesium.js";
-import { queryToObject } from "../../Source/Cesium.js";
-import { Request } from "../../Source/Cesium.js";
-import { RequestErrorEvent } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
+import { DefaultProxy } from "../../Source/Mcs.js";
+import { defaultValue } from "../../Source/Mcs.js";
+import { queryToObject } from "../../Source/Mcs.js";
+import { Request } from "../../Source/Mcs.js";
+import { RequestErrorEvent } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
 import createCanvas from "../createCanvas.js";
-import { Uri } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Uri } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/Resource", function () {
   var dataUri =

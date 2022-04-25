@@ -1,4 +1,4 @@
-import { getStringFromTypedArray } from "../../Source/Cesium.js";
+import { getStringFromTypedArray } from "../../Source/Mcs.js";
 
 describe("Core/getStringFromTypedArray", function () {
   function verifyString() {

@@ -1,6 +1,6 @@
-import { cancelAnimationFrame } from "../../Source/Cesium.js";
-import { requestAnimationFrame } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { cancelAnimationFrame } from "../../Source/Mcs.js";
+import { requestAnimationFrame } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/requestAnimationFrame", function () {
   it("calls the callback", function () {

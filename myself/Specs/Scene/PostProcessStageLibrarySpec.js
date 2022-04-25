@@ -1,15 +1,15 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { HeadingPitchRange } from "../../Source/Cesium.js";
-import { HeadingPitchRoll } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
-import { Model } from "../../Source/Cesium.js";
-import { PostProcessStageLibrary } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { HeadingPitchRange } from "../../Source/Mcs.js";
+import { HeadingPitchRoll } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
+import { Model } from "../../Source/Mcs.js";
+import { PostProcessStageLibrary } from "../../Source/Mcs.js";
 import createCanvas from "../createCanvas.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
 import ViewportPrimitive from "../ViewportPrimitive.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe(
   "Scene/PostProcessStageLibrary",

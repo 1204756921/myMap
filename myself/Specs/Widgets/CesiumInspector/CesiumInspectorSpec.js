@@ -1,7 +1,7 @@
-import { Ellipsoid } from "../../../Source/Cesium.js";
-import { Globe } from "../../../Source/Cesium.js";
+import { Ellipsoid } from "../../../Source/Mcs.js";
+import { Globe } from "../../../Source/Mcs.js";
 import createScene from "../../createScene.js";
-import { CesiumInspector } from "../../../Source/Cesium.js";
+import { CesiumInspector } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/CesiumInspector/CesiumInspector",

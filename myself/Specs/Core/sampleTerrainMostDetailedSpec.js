@@ -1,7 +1,7 @@
-import { Cartographic } from "../../Source/Cesium.js";
-import { CesiumTerrainProvider } from "../../Source/Cesium.js";
-import { createWorldTerrain } from "../../Source/Cesium.js";
-import { sampleTerrainMostDetailed } from "../../Source/Cesium.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { CesiumTerrainProvider } from "../../Source/Mcs.js";
+import { createWorldTerrain } from "../../Source/Mcs.js";
+import { sampleTerrainMostDetailed } from "../../Source/Mcs.js";
 
 describe("Core/sampleTerrainMostDetailed", function () {
   var worldTerrain;

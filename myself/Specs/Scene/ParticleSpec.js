@@ -1,7 +1,7 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Particle } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Particle } from "../../Source/Mcs.js";
 
 describe("Scene/Particle", function () {
   it("default constructor", function () {

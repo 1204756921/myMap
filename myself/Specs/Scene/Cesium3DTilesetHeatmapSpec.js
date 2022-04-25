@@ -1,9 +1,9 @@
-import { Color } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { Cesium3DTile } from "../../Source/Cesium.js";
-import { Cesium3DTileContentState } from "../../Source/Cesium.js";
-import { Cesium3DTilesetHeatmap } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { Cesium3DTile } from "../../Source/Mcs.js";
+import { Cesium3DTileContentState } from "../../Source/Mcs.js";
+import { Cesium3DTilesetHeatmap } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe("Scene/Cesium3DTilesetHeatmap", function () {

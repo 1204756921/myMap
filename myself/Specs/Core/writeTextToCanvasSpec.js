@@ -1,5 +1,5 @@
-import { Color } from "../../Source/Cesium.js";
-import { writeTextToCanvas } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { writeTextToCanvas } from "../../Source/Mcs.js";
 
 describe("Core/writeTextToCanvas", function () {
   it("returns undefined when text is blank", function () {

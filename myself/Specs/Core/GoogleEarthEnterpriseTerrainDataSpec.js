@@ -1,13 +1,13 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartographic } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseTerrainData } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { TerrainData } from "../../Source/Cesium.js";
-import { TerrainMesh } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseTerrainData } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { TerrainData } from "../../Source/Mcs.js";
+import { TerrainMesh } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/GoogleEarthEnterpriseTerrainData", function () {
   var sizeOfUint8 = Uint8Array.BYTES_PER_ELEMENT;

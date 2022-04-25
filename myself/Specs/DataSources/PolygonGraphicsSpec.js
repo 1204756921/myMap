@@ -1,13 +1,13 @@
-import { ArcType } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { DistanceDisplayCondition } from "../../Source/Cesium.js";
-import { PolygonHierarchy } from "../../Source/Cesium.js";
-import { ColorMaterialProperty } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { PolygonGraphics } from "../../Source/Cesium.js";
-import { ClassificationType } from "../../Source/Cesium.js";
-import { ShadowMode } from "../../Source/Cesium.js";
+import { ArcType } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { DistanceDisplayCondition } from "../../Source/Mcs.js";
+import { PolygonHierarchy } from "../../Source/Mcs.js";
+import { ColorMaterialProperty } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { PolygonGraphics } from "../../Source/Mcs.js";
+import { ClassificationType } from "../../Source/Mcs.js";
+import { ShadowMode } from "../../Source/Mcs.js";
 import testDefinitionChanged from "../testDefinitionChanged.js";
 import testMaterialDefinitionChanged from "../testMaterialDefinitionChanged.js";
 

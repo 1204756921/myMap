@@ -1,5 +1,5 @@
-import { IndexDatatype } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
+import { IndexDatatype } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
 
 describe("Core/IndexDatatype", function () {
   it("IndexDatatype.validate validates input", function () {

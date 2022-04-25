@@ -1,9 +1,9 @@
-import { AttributeCompression } from "../../Source/Cesium.js";
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
+import { AttributeCompression } from "../../Source/Mcs.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
 
 describe("Core/AttributeCompression", function () {
   var negativeUnitZ = new Cartesian3(0.0, 0.0, -1.0);

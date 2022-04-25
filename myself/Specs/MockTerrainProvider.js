@@ -1,11 +1,11 @@
 import createTileKey from "./createTileKey.js";
 import runLater from "./runLater.js";
-import { defined } from "../Source/Cesium.js";
-import { GeographicTilingScheme } from "../Source/Cesium.js";
-import { HeightmapTerrainData } from "../Source/Cesium.js";
-import { RuntimeError } from "../Source/Cesium.js";
-import { TerrainProvider } from "../Source/Cesium.js";
-import { when } from "../Source/Cesium.js";
+import { defined } from "../Source/Mcs.js";
+import { GeographicTilingScheme } from "../Source/Mcs.js";
+import { HeightmapTerrainData } from "../Source/Mcs.js";
+import { RuntimeError } from "../Source/Mcs.js";
+import { TerrainProvider } from "../Source/Mcs.js";
+import { when } from "../Source/Mcs.js";
 
 function MockTerrainProvider() {
   this.tilingScheme = new GeographicTilingScheme();

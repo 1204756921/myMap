@@ -1,10 +1,10 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartographic } from "../../Source/Cesium.js";
-import { GeographicProjection } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { TilingScheme } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { GeographicProjection } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { TilingScheme } from "../../Source/Mcs.js";
 
 describe("Core/GeographicTilingScheme", function () {
   it("conforms to TilingScheme interface.", function () {

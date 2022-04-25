@@ -1,12 +1,12 @@
-import { ArcType } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { ColorGeometryInstanceAttribute } from "../../Source/Cesium.js";
-import { GeometryInstance } from "../../Source/Cesium.js";
-import { PolylineGeometry } from "../../Source/Cesium.js";
-import { Appearance } from "../../Source/Cesium.js";
-import { PolylineColorAppearance } from "../../Source/Cesium.js";
-import { Primitive } from "../../Source/Cesium.js";
+import { ArcType } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { ColorGeometryInstanceAttribute } from "../../Source/Mcs.js";
+import { GeometryInstance } from "../../Source/Mcs.js";
+import { PolylineGeometry } from "../../Source/Mcs.js";
+import { Appearance } from "../../Source/Mcs.js";
+import { PolylineColorAppearance } from "../../Source/Mcs.js";
+import { Primitive } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

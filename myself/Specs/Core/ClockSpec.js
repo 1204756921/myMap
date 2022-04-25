@@ -1,8 +1,8 @@
-import { Clock } from "../../Source/Cesium.js";
-import { ClockRange } from "../../Source/Cesium.js";
-import { ClockStep } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
+import { Clock } from "../../Source/Mcs.js";
+import { ClockRange } from "../../Source/Mcs.js";
+import { ClockStep } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
 
 describe("Core/Clock", function () {
   it("sets default parameters when constructed", function () {

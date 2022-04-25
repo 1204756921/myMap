@@ -34,4 +34,17 @@ export default class WmsImageLayer extends ImageLayer {
             this.map.mapLayer.delete(this.id)
         }
     }
+      /** 
+    * 修改图层的颜色样式
+    * @param {number} brightness —亮度 默认1.0
+    * @param {number} contrast 对比度 默认1.0
+    * @param {number} saturation —饱和度 默认1.0
+    */ 
+    changeStyle(brightness,contrast,saturation){
+        if(this.layer){
+            this.layer.brightness = defaultValue(brightness,1);
+            this.layer.contrast = defaultValue(contrast,1);
+            this.layer.saturation = defaultValue(saturation,1);
+        }
+    }
 }

@@ -1,4 +1,4 @@
-import { Cartesian3, Model, when } from "../../Source/Cesium.js";
+import { Cartesian3, Model, when } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
 import GltfBuilder from "./GltfBuilder.js";

@@ -56,12 +56,11 @@ export default class TdtImageLayer extends ImageLayer {
          * 影像底图
          */
         this.img_w = new WebMapTileServiceImageryProvider({
-            url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=' + this.key,
-            layer: 'img',
+            url: 'http://t0.tianditu.com/img_w/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=img&tileMatrixSet=w&TileMatrix={TileMatrix}&TileRow={TileRow}&TileCol={TileCol}&style=default&format=tiles&tk=' + this.key,
+            layer: 'tdtCiaLayer',
             style: 'default',
-            tileMatrixSetID: 'w',
-            format: 'tiles',
-            maximumLevel: 17
+            tileMatrixSetID: 'GoogleMapsCompatible',
+            format: 'image/jpeg'
         });
         /**
          * 地形底图
@@ -101,6 +100,19 @@ export default class TdtImageLayer extends ImageLayer {
         if (this.map) {
             this.map.Viewer.imageryLayers.remove(this.layer);
             this.map.mapLayer.delete(this.id);
+        }
+    }
+    /** 
+    * 修改图层的颜色样式
+    * @param {number} brightness —亮度 默认1.0
+    * @param {number} contrast 对比度 默认1.0
+    * @param {number} saturation —饱和度 默认1.0
+    */ 
+    changeStyle(brightness,contrast,saturation){
+        if(this.layer){
+            this.layer.brightness = defaultValue(brightness,1);
+            this.layer.contrast = defaultValue(contrast,1);
+            this.layer.saturation = defaultValue(saturation,1);
         }
     }
 }

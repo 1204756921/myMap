@@ -1,4 +1,4 @@
-import { Event } from "../../Source/Cesium.js";
+import { Event } from "../../Source/Mcs.js";
 
 describe("Core/Event", function () {
   var event;

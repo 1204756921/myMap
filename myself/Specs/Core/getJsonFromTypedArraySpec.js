@@ -1,4 +1,4 @@
-import { getJsonFromTypedArray } from "../../Source/Cesium.js";
+import { getJsonFromTypedArray } from "../../Source/Mcs.js";
 
 describe("Core/getJsonFromTypedArray", function () {
   it("converts a typed array to string", function () {

@@ -1,5 +1,5 @@
-import { PixelDatatype } from "../../Source/Cesium.js";
-import { PixelFormat } from "../../Source/Cesium.js";
+import { PixelDatatype } from "../../Source/Mcs.js";
+import { PixelFormat } from "../../Source/Mcs.js";
 
 describe("Core/PixelFormat", function () {
   it("flipY works", function () {

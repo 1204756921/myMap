@@ -1,6 +1,6 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Matrix2 } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Matrix2 } from "../../Source/Mcs.js";
 
 describe("Core/Matrix2", function () {
   it("default constructor creates values array with all zeros.", function () {

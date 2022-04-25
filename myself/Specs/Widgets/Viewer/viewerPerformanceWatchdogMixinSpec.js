@@ -1,6 +1,6 @@
 import createViewer from "../../createViewer.js";
-import { PerformanceWatchdog } from "../../../Source/Cesium.js";
-import { viewerPerformanceWatchdogMixin } from "../../../Source/Cesium.js";
+import { PerformanceWatchdog } from "../../../Source/Mcs.js";
+import { viewerPerformanceWatchdogMixin } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/Viewer/viewerPerformanceWatchdogMixin",

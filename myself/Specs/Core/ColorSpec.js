@@ -1,6 +1,6 @@
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/Color", function () {

@@ -3,6 +3,7 @@ import HeightType from '../code/HeightType.js';
 import { default as PolygonGraphics } from '../../DataSources/PolygonGraphics.js';
 import Overlay from '../mcsBaseMap/Overlay.js';
 import { defaultValue } from '../mcsUtil/defind';
+import { default as ImageMaterialProperty } from '../../DataSources/ImageMaterialProperty'
 /**
      * @constructor
      * @param {Object} options - 实体选项
@@ -28,6 +29,7 @@ export default class Polygon extends Overlay {
             this.outline = defaultValue(options.outline, true);
         this.outlineColor = defaultValue(options.outlineColor, Color.TRANSPARENT);
         this.outlineWidth = defaultValue(options.outlineWidth, 0);
+        this.img = defaultValue(options.image, null)
         this.keyArry = ['id', 'name', 'show', 'positions', 'color', 'heightType', 'outline', 'outlineColor', 'outlineWidth'];
         this.options = options;
     }
@@ -44,6 +46,11 @@ export default class Polygon extends Overlay {
             }),
             show: this.show
         };
+        if(this.img != null){
+            enti.polyline.material = new ImageMaterialProperty({
+                image:this.img
+            })
+       }
         if (this.id && this.id != null) {
             enti.id = this.id;
         }

@@ -1,18 +1,18 @@
 import equals from "./equals.js";
-import { Cartesian2 } from "../Source/Cesium.js";
-import { defaultValue } from "../Source/Cesium.js";
-import { defined } from "../Source/Cesium.js";
-import { DeveloperError } from "../Source/Cesium.js";
-import { FeatureDetection } from "../Source/Cesium.js";
-import { Math as CesiumMath } from "../Source/Cesium.js";
-import { PrimitiveType } from "../Source/Cesium.js";
-import { RuntimeError } from "../Source/Cesium.js";
-import { Buffer } from "../Source/Cesium.js";
-import { BufferUsage } from "../Source/Cesium.js";
-import { ClearCommand } from "../Source/Cesium.js";
-import { DrawCommand } from "../Source/Cesium.js";
-import { ShaderProgram } from "../Source/Cesium.js";
-import { VertexArray } from "../Source/Cesium.js";
+import { Cartesian2 } from "../Source/Mcs.js";
+import { defaultValue } from "../Source/Mcs.js";
+import { defined } from "../Source/Mcs.js";
+import { DeveloperError } from "../Source/Mcs.js";
+import { FeatureDetection } from "../Source/Mcs.js";
+import { Math as CesiumMath } from "../Source/Mcs.js";
+import { PrimitiveType } from "../Source/Mcs.js";
+import { RuntimeError } from "../Source/Mcs.js";
+import { Buffer } from "../Source/Mcs.js";
+import { BufferUsage } from "../Source/Mcs.js";
+import { ClearCommand } from "../Source/Mcs.js";
+import { DrawCommand } from "../Source/Mcs.js";
+import { ShaderProgram } from "../Source/Mcs.js";
+import { VertexArray } from "../Source/Mcs.js";
 
 function createMissingFunctionMessageFunction(
   item,

@@ -1,4 +1,4 @@
-import { Tipsify } from "../../Source/Cesium.js";
+import { Tipsify } from "../../Source/Mcs.js";
 
 describe("Core/Tipsify", function () {
   it("can calculate the ACMR", function () {

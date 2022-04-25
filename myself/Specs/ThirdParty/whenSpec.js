@@ -1,4 +1,4 @@
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("ThirdParty/when", function () {
   // These tests are from my original attempt to write my own promise implementation.

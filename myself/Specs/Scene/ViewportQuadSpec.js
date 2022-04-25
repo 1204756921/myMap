@@ -1,9 +1,9 @@
-import { BoundingRectangle } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { Texture } from "../../Source/Cesium.js";
-import { Material } from "../../Source/Cesium.js";
-import { ViewportQuad } from "../../Source/Cesium.js";
+import { BoundingRectangle } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { Texture } from "../../Source/Mcs.js";
+import { Material } from "../../Source/Mcs.js";
+import { ViewportQuad } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
 

@@ -1,4 +1,4 @@
-import { RuntimeError } from "../../Source/Cesium.js";
+import { RuntimeError } from "../../Source/Mcs.js";
 
 describe("Core/RuntimeError", function () {
   var name = "RuntimeError";

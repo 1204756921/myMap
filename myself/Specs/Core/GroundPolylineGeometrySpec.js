@@ -1,13 +1,13 @@
-import { ApproximateTerrainHeights } from "../../Source/Cesium.js";
-import { ArcType } from "../../Source/Cesium.js";
-import { arraySlice } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartographic } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { GeographicProjection } from "../../Source/Cesium.js";
-import { GroundPolylineGeometry } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { WebMercatorProjection } from "../../Source/Cesium.js";
+import { ApproximateTerrainHeights } from "../../Source/Mcs.js";
+import { ArcType } from "../../Source/Mcs.js";
+import { arraySlice } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { GeographicProjection } from "../../Source/Mcs.js";
+import { GroundPolylineGeometry } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { WebMercatorProjection } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/GroundPolylineGeometry", function () {

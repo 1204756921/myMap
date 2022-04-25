@@ -1,9 +1,9 @@
-import { Iso8601 } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { Entity } from "../../Source/Cesium.js";
-import { EntityCollection } from "../../Source/Cesium.js";
+import { Iso8601 } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { Entity } from "../../Source/Mcs.js";
+import { EntityCollection } from "../../Source/Mcs.js";
 
 describe("DataSources/EntityCollection", function () {
   function CollectionListener() {

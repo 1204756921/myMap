@@ -1,14 +1,14 @@
-import { ComponentDatatype } from "../../Source/Cesium.js";
-import { Geometry } from "../../Source/Cesium.js";
-import { GeometryAttribute } from "../../Source/Cesium.js";
-import { GeometryPipeline } from "../../Source/Cesium.js";
-import { IndexDatatype } from "../../Source/Cesium.js";
-import { PrimitiveType } from "../../Source/Cesium.js";
-import { BufferUsage } from "../../Source/Cesium.js";
-import { ClearCommand } from "../../Source/Cesium.js";
-import { DrawCommand } from "../../Source/Cesium.js";
-import { ShaderProgram } from "../../Source/Cesium.js";
-import { VertexArray } from "../../Source/Cesium.js";
+import { ComponentDatatype } from "../../Source/Mcs.js";
+import { Geometry } from "../../Source/Mcs.js";
+import { GeometryAttribute } from "../../Source/Mcs.js";
+import { GeometryPipeline } from "../../Source/Mcs.js";
+import { IndexDatatype } from "../../Source/Mcs.js";
+import { PrimitiveType } from "../../Source/Mcs.js";
+import { BufferUsage } from "../../Source/Mcs.js";
+import { ClearCommand } from "../../Source/Mcs.js";
+import { DrawCommand } from "../../Source/Mcs.js";
+import { ShaderProgram } from "../../Source/Mcs.js";
+import { VertexArray } from "../../Source/Mcs.js";
 import createContext from "../createContext.js";
 
 describe(

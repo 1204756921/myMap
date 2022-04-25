@@ -1,7 +1,7 @@
-import { Event } from "../../Source/Cesium.js";
-import { CustomDataSource } from "../../Source/Cesium.js";
-import { DataSourceClock } from "../../Source/Cesium.js";
-import { EntityCollection } from "../../Source/Cesium.js";
+import { Event } from "../../Source/Mcs.js";
+import { CustomDataSource } from "../../Source/Mcs.js";
+import { DataSourceClock } from "../../Source/Mcs.js";
+import { EntityCollection } from "../../Source/Mcs.js";
 
 describe("DataSources/CustomDataSource", function () {
   it("constructor has expected defaults", function () {

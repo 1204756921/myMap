@@ -1,4 +1,4 @@
-import { NavigationHelpButtonViewModel } from "../../../Source/Cesium.js";
+import { NavigationHelpButtonViewModel } from "../../../Source/Mcs.js";
 
 describe("Widgets/NavigationHelpButton/NavigationHelpButtonViewModel", function () {
   it("Can construct", function () {

@@ -1,4 +1,4 @@
-import { PointCloudShading } from "../../Source/Cesium.js";
+import { PointCloudShading } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe("Scene/PointCloudShading", function () {

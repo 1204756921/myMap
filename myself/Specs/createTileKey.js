@@ -1,5 +1,5 @@
-import { defined } from "../Source/Cesium.js";
-import { DeveloperError } from "../Source/Cesium.js";
+import { defined } from "../Source/Mcs.js";
+import { DeveloperError } from "../Source/Mcs.js";
 
 function createTileKey(xOrTile, y, level) {
   if (!defined(xOrTile)) {

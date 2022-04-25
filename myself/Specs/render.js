@@ -1,7 +1,7 @@
-import { defined } from "../Source/Cesium.js";
-import { Intersect } from "../Source/Cesium.js";
-import { Pass } from "../Source/Cesium.js";
-import { SceneMode } from "../Source/Cesium.js";
+import { defined } from "../Source/Mcs.js";
+import { Intersect } from "../Source/Mcs.js";
+import { Pass } from "../Source/Mcs.js";
+import { SceneMode } from "../Source/Mcs.js";
 
 function executeCommands(frameState, commands) {
   var commandsExecuted = 0;

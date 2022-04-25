@@ -1,20 +1,20 @@
 import MockImageryProvider from "../MockImageryProvider.js";
 import MockTerrainProvider from "../MockTerrainProvider.js";
 import TerrainTileProcessor from "../TerrainTileProcessor.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { createWorldTerrain } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { EllipsoidTerrainProvider } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { Ray } from "../../Source/Cesium.js";
-import { GlobeSurfaceTile } from "../../Source/Cesium.js";
-import { ImageryLayerCollection } from "../../Source/Cesium.js";
-import { QuadtreeTile } from "../../Source/Cesium.js";
-import { QuadtreeTileLoadState } from "../../Source/Cesium.js";
-import { TerrainState } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { createWorldTerrain } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { EllipsoidTerrainProvider } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { Ray } from "../../Source/Mcs.js";
+import { GlobeSurfaceTile } from "../../Source/Mcs.js";
+import { ImageryLayerCollection } from "../../Source/Mcs.js";
+import { QuadtreeTile } from "../../Source/Mcs.js";
+import { QuadtreeTileLoadState } from "../../Source/Mcs.js";
+import { TerrainState } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Scene/GlobeSurfaceTile", function () {
   var frameState;

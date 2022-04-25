@@ -1,4 +1,4 @@
-import { RequestErrorEvent } from "../../Source/Cesium.js";
+import { RequestErrorEvent } from "../../Source/Mcs.js";
 
 describe("Core/RequestErrorEvent", function () {
   it("parses response headers provided as a string", function () {

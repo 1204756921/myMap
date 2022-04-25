@@ -1,4 +1,4 @@
-import { InfoBoxViewModel } from "../../../Source/Cesium.js";
+import { InfoBoxViewModel } from "../../../Source/Mcs.js";
 
 describe("Widgets/InfoBox/InfoBoxViewModel", function () {
   it("constructor sets expected values", function () {

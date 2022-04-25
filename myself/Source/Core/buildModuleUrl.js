@@ -5,7 +5,7 @@ import Resource from "./Resource.js";
 
 /*global CESIUM_BASE_URL*/
 
-var cesiumScriptRegex = /((?:.*\/)|^)Cesium\.js(?:\?|\#|$)/;
+var cesiumScriptRegex = /((?:.*\/)|^)Mcs\.js(?:\?|\#|$)/;
 function getBaseUrlFromCesiumScript() {
   var scripts = document.getElementsByTagName("script");
   for (var i = 0, len = scripts.length; i < len; ++i) {
@@ -58,7 +58,6 @@ function getCesiumBaseUrl() {
   } else {
     baseUrlString = getBaseUrlFromCesiumScript();
   }
-
   //>>includeStart('debug', pragmas.debug);
   if (!defined(baseUrlString)) {
     throw new DeveloperError(
@@ -71,7 +70,6 @@ function getCesiumBaseUrl() {
     url: tryMakeAbsolute(baseUrlString),
   });
   baseResource.appendForwardSlash();
-
   return baseResource;
 }
 

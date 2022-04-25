@@ -1,16 +1,16 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Credit } from "../../Source/Cesium.js";
-import { Event } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { PolygonHierarchy } from "../../Source/Cesium.js";
-import { RuntimeError } from "../../Source/Cesium.js";
-import { CallbackProperty } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { EntityCollection } from "../../Source/Cesium.js";
-import { GeoJsonDataSource } from "../../Source/Cesium.js";
-import { HeightReference } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Credit } from "../../Source/Mcs.js";
+import { Event } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { PolygonHierarchy } from "../../Source/Mcs.js";
+import { RuntimeError } from "../../Source/Mcs.js";
+import { CallbackProperty } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { EntityCollection } from "../../Source/Mcs.js";
+import { GeoJsonDataSource } from "../../Source/Mcs.js";
+import { HeightReference } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("DataSources/GeoJsonDataSource", function () {
   var defaultMarkerSize;

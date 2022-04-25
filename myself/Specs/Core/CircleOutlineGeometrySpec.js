@@ -1,6 +1,6 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { CircleOutlineGeometry } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { CircleOutlineGeometry } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/CircleOutlineGeometry", function () {

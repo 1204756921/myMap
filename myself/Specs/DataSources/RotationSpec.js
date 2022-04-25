@@ -1,7 +1,7 @@
-import { JulianDate } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Rotation } from "../../Source/Cesium.js";
-import { SampledProperty } from "../../Source/Cesium.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Rotation } from "../../Source/Mcs.js";
+import { SampledProperty } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("DataSources/Rotation", function () {

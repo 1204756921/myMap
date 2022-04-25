@@ -1,22 +1,22 @@
-import { decodeGoogleEarthEnterpriseData } from "../../Source/Cesium.js";
-import { defaultValue } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseMetadata } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseTileInformation } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { Request } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { DiscardMissingTileImagePolicy } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseImageryProvider } from "../../Source/Cesium.js";
-import { Imagery } from "../../Source/Cesium.js";
-import { ImageryLayer } from "../../Source/Cesium.js";
-import { ImageryProvider } from "../../Source/Cesium.js";
-import { ImageryState } from "../../Source/Cesium.js";
+import { decodeGoogleEarthEnterpriseData } from "../../Source/Mcs.js";
+import { defaultValue } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseMetadata } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseTileInformation } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { Request } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { DiscardMissingTileImagePolicy } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseImageryProvider } from "../../Source/Mcs.js";
+import { Imagery } from "../../Source/Mcs.js";
+import { ImageryLayer } from "../../Source/Mcs.js";
+import { ImageryProvider } from "../../Source/Mcs.js";
+import { ImageryState } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
-import { Uri } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Uri } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Scene/GoogleEarthEnterpriseImageryProvider", function () {
   beforeEach(function () {

@@ -1,4 +1,4 @@
-import { defaultValue } from "../../Source/Cesium.js";
+import { defaultValue } from "../../Source/Mcs.js";
 
 describe("Core/defaultValue", function () {
   it("Works with first parameter undefined", function () {

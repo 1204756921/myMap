@@ -1,11 +1,11 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { PrimitiveType } from "../../Source/Cesium.js";
-import { Buffer } from "../../Source/Cesium.js";
-import { BufferUsage } from "../../Source/Cesium.js";
-import { DrawCommand } from "../../Source/Cesium.js";
-import { loadCubeMap } from "../../Source/Cesium.js";
-import { ShaderProgram } from "../../Source/Cesium.js";
-import { VertexArray } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { PrimitiveType } from "../../Source/Mcs.js";
+import { Buffer } from "../../Source/Mcs.js";
+import { BufferUsage } from "../../Source/Mcs.js";
+import { DrawCommand } from "../../Source/Mcs.js";
+import { loadCubeMap } from "../../Source/Mcs.js";
+import { ShaderProgram } from "../../Source/Mcs.js";
+import { VertexArray } from "../../Source/Mcs.js";
 import createContext from "../createContext.js";
 
 describe(

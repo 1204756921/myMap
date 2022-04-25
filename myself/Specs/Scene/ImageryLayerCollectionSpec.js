@@ -1,20 +1,20 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { Event } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { Ray } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { WebMercatorProjection } from "../../Source/Cesium.js";
-import { WebMercatorTilingScheme } from "../../Source/Cesium.js";
-import { Globe } from "../../Source/Cesium.js";
-import { ImageryLayer } from "../../Source/Cesium.js";
-import { ImageryLayerCollection } from "../../Source/Cesium.js";
-import { ImageryLayerFeatureInfo } from "../../Source/Cesium.js";
-import { ImageryProvider } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { Event } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { Ray } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { WebMercatorProjection } from "../../Source/Mcs.js";
+import { WebMercatorTilingScheme } from "../../Source/Mcs.js";
+import { Globe } from "../../Source/Mcs.js";
+import { ImageryLayer } from "../../Source/Mcs.js";
+import { ImageryLayerCollection } from "../../Source/Mcs.js";
+import { ImageryLayerFeatureInfo } from "../../Source/Mcs.js";
+import { ImageryProvider } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe(
   "Scene/ImageryLayerCollection",

@@ -1,9 +1,9 @@
-import { defaultValue } from "../../Source/Cesium.js";
-import { Iso8601 } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { TimeStandard } from "../../Source/Cesium.js";
+import { defaultValue } from "../../Source/Mcs.js";
+import { Iso8601 } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { TimeStandard } from "../../Source/Mcs.js";
 
 describe("Core/TimeIntervalCollection", function () {
   function defaultDataCallback(interval, index) {

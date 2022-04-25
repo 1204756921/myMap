@@ -1,4 +1,4 @@
-import { getBaseUri } from "../../Source/Cesium.js";
+import { getBaseUri } from "../../Source/Mcs.js";
 
 describe("Core/getBaseUri", function () {
   it("works as expected", function () {

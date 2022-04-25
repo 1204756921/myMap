@@ -1,13 +1,13 @@
-import { Color } from "../Source/Cesium.js";
-import { GeometryOffsetAttribute } from "../Source/Cesium.js";
-import { JulianDate } from "../Source/Cesium.js";
-import { ColorMaterialProperty } from "../Source/Cesium.js";
-import { ConstantProperty } from "../Source/Cesium.js";
-import { SampledProperty } from "../Source/Cesium.js";
-import { ClassificationType } from "../Source/Cesium.js";
-import { GroundPrimitive } from "../Source/Cesium.js";
-import { HeightReference } from "../Source/Cesium.js";
-import { PrimitiveCollection } from "../Source/Cesium.js";
+import { Color } from "../Source/Mcs.js";
+import { GeometryOffsetAttribute } from "../Source/Mcs.js";
+import { JulianDate } from "../Source/Mcs.js";
+import { ColorMaterialProperty } from "../Source/Mcs.js";
+import { ConstantProperty } from "../Source/Mcs.js";
+import { SampledProperty } from "../Source/Mcs.js";
+import { ClassificationType } from "../Source/Mcs.js";
+import { GroundPrimitive } from "../Source/Mcs.js";
+import { HeightReference } from "../Source/Mcs.js";
+import { PrimitiveCollection } from "../Source/Mcs.js";
 
 function createGeometryUpdaterGroundGeometrySpecs(
   Updater,

@@ -1,6 +1,6 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { HermiteSpline } from "../../Source/Cesium.js";
-import { Spline } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { HermiteSpline } from "../../Source/Mcs.js";
+import { Spline } from "../../Source/Mcs.js";
 
 describe("Core/Spline", function () {
   it("contructor throws", function () {

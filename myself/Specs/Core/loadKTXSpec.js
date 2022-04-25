@@ -1,10 +1,10 @@
-import { loadKTX } from "../../Source/Cesium.js";
-import { PixelFormat } from "../../Source/Cesium.js";
-import { Request } from "../../Source/Cesium.js";
-import { RequestErrorEvent } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { RuntimeError } from "../../Source/Cesium.js";
+import { loadKTX } from "../../Source/Mcs.js";
+import { PixelFormat } from "../../Source/Mcs.js";
+import { Request } from "../../Source/Mcs.js";
+import { RequestErrorEvent } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { RuntimeError } from "../../Source/Mcs.js";
 
 describe("Core/loadKTX", function () {
   var validCompressed = new Uint8Array([

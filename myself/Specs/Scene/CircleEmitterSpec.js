@@ -1,6 +1,6 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { CircleEmitter } from "../../Source/Cesium.js";
-import { Particle } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { CircleEmitter } from "../../Source/Mcs.js";
+import { Particle } from "../../Source/Mcs.js";
 
 describe("Scene/CircleEmitter", function () {
   var emitter;

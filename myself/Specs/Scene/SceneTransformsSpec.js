@@ -1,12 +1,12 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { OrthographicFrustum } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { Camera } from "../../Source/Cesium.js";
-import { SceneMode } from "../../Source/Cesium.js";
-import { SceneTransforms } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { OrthographicFrustum } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { Camera } from "../../Source/Mcs.js";
+import { SceneMode } from "../../Source/Mcs.js";
+import { SceneTransforms } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

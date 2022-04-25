@@ -1,25 +1,25 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { ComponentDatatype } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { HeadingPitchRange } from "../../Source/Cesium.js";
-import { HeadingPitchRoll } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { PerspectiveFrustum } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
-import { Pass } from "../../Source/Cesium.js";
-import { Cesium3DTilePass } from "../../Source/Cesium.js";
-import { Cesium3DTileRefine } from "../../Source/Cesium.js";
-import { Cesium3DTileStyle } from "../../Source/Cesium.js";
-import { ClippingPlane } from "../../Source/Cesium.js";
-import { ClippingPlaneCollection } from "../../Source/Cesium.js";
-import { DracoLoader } from "../../Source/Cesium.js";
-import { Expression } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { ComponentDatatype } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { HeadingPitchRange } from "../../Source/Mcs.js";
+import { HeadingPitchRoll } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { PerspectiveFrustum } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
+import { Pass } from "../../Source/Mcs.js";
+import { Cesium3DTilePass } from "../../Source/Mcs.js";
+import { Cesium3DTileRefine } from "../../Source/Mcs.js";
+import { Cesium3DTileStyle } from "../../Source/Mcs.js";
+import { ClippingPlane } from "../../Source/Mcs.js";
+import { ClippingPlaneCollection } from "../../Source/Mcs.js";
+import { DracoLoader } from "../../Source/Mcs.js";
+import { Expression } from "../../Source/Mcs.js";
 import Cesium3DTilesTester from "../Cesium3DTilesTester.js";
 import createCanvas from "../createCanvas.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe(
   "Scene/PointCloud3DTileContent",

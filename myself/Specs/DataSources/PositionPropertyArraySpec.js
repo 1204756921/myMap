@@ -1,9 +1,9 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { ReferenceFrame } from "../../Source/Cesium.js";
-import { ConstantPositionProperty } from "../../Source/Cesium.js";
-import { PositionPropertyArray } from "../../Source/Cesium.js";
-import { SampledPositionProperty } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { ReferenceFrame } from "../../Source/Mcs.js";
+import { ConstantPositionProperty } from "../../Source/Mcs.js";
+import { PositionPropertyArray } from "../../Source/Mcs.js";
+import { SampledPositionProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/PositionPropertyArray", function () {
   var time = JulianDate.now();

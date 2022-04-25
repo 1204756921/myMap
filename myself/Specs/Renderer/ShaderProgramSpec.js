@@ -1,6 +1,6 @@
-import { ContextLimits } from "../../Source/Cesium.js";
-import { ShaderProgram } from "../../Source/Cesium.js";
-import { ShaderSource } from "../../Source/Cesium.js";
+import { ContextLimits } from "../../Source/Mcs.js";
+import { ShaderProgram } from "../../Source/Mcs.js";
+import { ShaderSource } from "../../Source/Mcs.js";
 import createContext from "../createContext.js";
 
 describe(

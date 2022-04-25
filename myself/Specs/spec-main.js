@@ -13,7 +13,7 @@
 // Use a pragma so we can remove this code when building specs for running in ES5
 
 //>>includeStart('debug', pragmas.debug);
-import * as Cesium from "../Source/Cesium.js";
+import * as Cesium from "../Source/Mcs.js";
 //>>includeEnd('debug');
 
 import addDefaultMatchers from "./addDefaultMatchers.js";

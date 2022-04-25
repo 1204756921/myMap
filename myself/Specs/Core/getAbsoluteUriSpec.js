@@ -1,5 +1,5 @@
-import { getAbsoluteUri } from "../../Source/Cesium.js";
-import { getBaseUri } from "../../Source/Cesium.js";
+import { getAbsoluteUri } from "../../Source/Mcs.js";
+import { getBaseUri } from "../../Source/Mcs.js";
 
 describe("Core/getAbsoluteUri", function () {
   it("works as expected", function () {

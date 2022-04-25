@@ -1,19 +1,19 @@
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { EarthOrientationParameters } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { GeographicProjection } from "../../Source/Cesium.js";
-import { HeadingPitchRoll } from "../../Source/Cesium.js";
-import { Iau2006XysData } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Matrix3 } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { Quaternion } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { EarthOrientationParameters } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { GeographicProjection } from "../../Source/Mcs.js";
+import { HeadingPitchRoll } from "../../Source/Mcs.js";
+import { Iau2006XysData } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Matrix3 } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { Quaternion } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
 
 describe("Core/Transforms", function () {
   var negativeX = new Cartesian4(-1, 0, 0, 0);

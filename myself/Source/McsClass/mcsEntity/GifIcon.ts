@@ -35,7 +35,7 @@ export default class GifIcon extends Overlay{
     position:Vector3
     rotation:Number
     scale:Number
-    imaList:Array<string>
+    imgList:Array<string>
     heightType:any
     disableDistance:number
     pixelOffset:Vector2
@@ -48,7 +48,7 @@ export default class GifIcon extends Overlay{
         this.id = defaultValue(options.id,null);
         this.name = options.name
         this.show = defaultValue(options.show,true);
-        this.imaList = defaultValue(options.imaList,[]);
+        this.imgList = defaultValue(options.imaList,[]);
         this.position = options.position;
         this.rotation = defaultValue(options.rotation,0);
         this.scale = defaultValue(options.scale,1);
@@ -65,10 +65,10 @@ export default class GifIcon extends Overlay{
             let flag = 0;  
             let img = new CallbackProperty(() => {
                   flag++;
-                if (flag >= this.imaList.length) {
+                if (flag >= this.imgList.length) {
                     flag = 0;
                 }
-                return this.imaList[flag]
+                return this.imgList[flag]
              }, false)
             this.entity= {
                 position: new Cartesian3(this.position.x,this.position.y,this.position.z),

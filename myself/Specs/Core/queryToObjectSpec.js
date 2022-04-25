@@ -1,4 +1,4 @@
-import { queryToObject } from "../../Source/Cesium.js";
+import { queryToObject } from "../../Source/Mcs.js";
 
 describe("Core/queryToObject", function () {
   it("can decode data", function () {

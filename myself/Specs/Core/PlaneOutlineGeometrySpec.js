@@ -1,4 +1,4 @@
-import { PlaneOutlineGeometry } from "../../Source/Cesium.js";
+import { PlaneOutlineGeometry } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/PlaneOutlineGeometry", function () {

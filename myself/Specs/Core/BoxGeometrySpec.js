@@ -1,9 +1,9 @@
-import { arrayFill } from "../../Source/Cesium.js";
-import { AxisAlignedBoundingBox } from "../../Source/Cesium.js";
-import { BoxGeometry } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { GeometryOffsetAttribute } from "../../Source/Cesium.js";
-import { VertexFormat } from "../../Source/Cesium.js";
+import { arrayFill } from "../../Source/Mcs.js";
+import { AxisAlignedBoundingBox } from "../../Source/Mcs.js";
+import { BoxGeometry } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { GeometryOffsetAttribute } from "../../Source/Mcs.js";
+import { VertexFormat } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/BoxGeometry", function () {

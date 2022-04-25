@@ -1,5 +1,5 @@
-import { JobScheduler } from "../../Source/Cesium.js";
-import { JobType } from "../../Source/Cesium.js";
+import { JobScheduler } from "../../Source/Mcs.js";
+import { JobType } from "../../Source/Mcs.js";
 
 describe("Scene/JobScheduler", function () {
   var originalGetTimestamp;

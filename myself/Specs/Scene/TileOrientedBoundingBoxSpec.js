@@ -1,10 +1,10 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Intersect } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Matrix3 } from "../../Source/Cesium.js";
-import { Plane } from "../../Source/Cesium.js";
-import { TileOrientedBoundingBox } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Intersect } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Matrix3 } from "../../Source/Mcs.js";
+import { Plane } from "../../Source/Mcs.js";
+import { TileOrientedBoundingBox } from "../../Source/Mcs.js";
 import createFrameState from "../createFrameState.js";
 
 describe("Scene/TileOrientedBoundingBox", function () {

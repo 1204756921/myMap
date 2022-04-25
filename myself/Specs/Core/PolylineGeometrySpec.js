@@ -1,9 +1,9 @@
-import { ArcType } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { PolylineGeometry } from "../../Source/Cesium.js";
-import { VertexFormat } from "../../Source/Cesium.js";
+import { ArcType } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { PolylineGeometry } from "../../Source/Mcs.js";
+import { VertexFormat } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 import CesiumMath from "../../Source/Core/Math.js";
 

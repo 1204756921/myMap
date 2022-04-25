@@ -1,23 +1,23 @@
-import { Clock } from "../../Source/Cesium.js";
-import { ClockStep } from "../../Source/Cesium.js";
-import { Credit } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { objectToQuery } from "../../Source/Cesium.js";
-import { queryToObject } from "../../Source/Cesium.js";
-import { Request } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { RequestState } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { WebMercatorTilingScheme } from "../../Source/Cesium.js";
-import { Imagery } from "../../Source/Cesium.js";
-import { ImageryLayer } from "../../Source/Cesium.js";
-import { ImageryProvider } from "../../Source/Cesium.js";
-import { ImageryState } from "../../Source/Cesium.js";
-import { WebMapTileServiceImageryProvider } from "../../Source/Cesium.js";
+import { Clock } from "../../Source/Mcs.js";
+import { ClockStep } from "../../Source/Mcs.js";
+import { Credit } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { objectToQuery } from "../../Source/Mcs.js";
+import { queryToObject } from "../../Source/Mcs.js";
+import { Request } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { RequestState } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { WebMercatorTilingScheme } from "../../Source/Mcs.js";
+import { Imagery } from "../../Source/Mcs.js";
+import { ImageryLayer } from "../../Source/Mcs.js";
+import { ImageryProvider } from "../../Source/Mcs.js";
+import { ImageryState } from "../../Source/Mcs.js";
+import { WebMapTileServiceImageryProvider } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
-import { Uri } from "../../Source/Cesium.js";
+import { Uri } from "../../Source/Mcs.js";
 
 describe("Scene/WebMapTileServiceImageryProvider", function () {
   beforeEach(function () {

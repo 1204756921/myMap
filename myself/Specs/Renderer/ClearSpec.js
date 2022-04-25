@@ -1,9 +1,9 @@
-import { BoundingRectangle } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { ClearCommand } from "../../Source/Cesium.js";
-import { Framebuffer } from "../../Source/Cesium.js";
-import { RenderState } from "../../Source/Cesium.js";
-import { Texture } from "../../Source/Cesium.js";
+import { BoundingRectangle } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { ClearCommand } from "../../Source/Mcs.js";
+import { Framebuffer } from "../../Source/Mcs.js";
+import { RenderState } from "../../Source/Mcs.js";
+import { Texture } from "../../Source/Mcs.js";
 import createContext from "../createContext.js";
 
 describe(

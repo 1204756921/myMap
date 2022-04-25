@@ -1,4 +1,4 @@
-import { defined } from "../../Source/Cesium.js";
+import { defined } from "../../Source/Mcs.js";
 
 describe("Core/defined", function () {
   it("works for defined value", function () {

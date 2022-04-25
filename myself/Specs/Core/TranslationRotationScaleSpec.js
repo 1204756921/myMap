@@ -1,6 +1,6 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Quaternion } from "../../Source/Cesium.js";
-import { TranslationRotationScale } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Quaternion } from "../../Source/Mcs.js";
+import { TranslationRotationScale } from "../../Source/Mcs.js";
 
 describe("Core/TranslationRotationScale", function () {
   it("sets correct values when constructed with no arguments", function () {

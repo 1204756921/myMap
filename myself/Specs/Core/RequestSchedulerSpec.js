@@ -1,7 +1,7 @@
-import { Request } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { RequestState } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Request } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { RequestState } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/RequestScheduler", function () {
   var originalMaximumRequests;

@@ -1,9 +1,9 @@
-import { Cartesian3 } from "../../../Source/Cesium.js";
-import { Rectangle } from "../../../Source/Cesium.js";
+import { Cartesian3 } from "../../../Source/Mcs.js";
+import { Rectangle } from "../../../Source/Mcs.js";
 import createScene from "../../createScene.js";
 import pollToPromise from "../../pollToPromise.js";
-import { when } from "../../../Source/Cesium.js";
-import { GeocoderViewModel } from "../../../Source/Cesium.js";
+import { when } from "../../../Source/Mcs.js";
+import { GeocoderViewModel } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/Geocoder/GeocoderViewModel",

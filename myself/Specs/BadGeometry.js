@@ -1,5 +1,5 @@
-import { queryToObject } from "../Source/Cesium.js";
-import { RuntimeError } from "../Source/Cesium.js";
+import { queryToObject } from "../Source/Mcs.js";
+import { RuntimeError } from "../Source/Mcs.js";
 
 function BadGeometry() {
   this._workerName = "../../Specs/TestWorkers/createBadGeometry";

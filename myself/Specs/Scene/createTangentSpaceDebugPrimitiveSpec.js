@@ -1,9 +1,9 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { EllipsoidGeometry } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { PrimitiveType } from "../../Source/Cesium.js";
-import { VertexFormat } from "../../Source/Cesium.js";
-import { createTangentSpaceDebugPrimitive } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { EllipsoidGeometry } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { PrimitiveType } from "../../Source/Mcs.js";
+import { VertexFormat } from "../../Source/Mcs.js";
+import { createTangentSpaceDebugPrimitive } from "../../Source/Mcs.js";
 
 describe("Scene/createTangentSpaceDebugPrimitive", function () {
   it("computes all attributes", function () {

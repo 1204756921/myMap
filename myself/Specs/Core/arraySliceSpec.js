@@ -1,5 +1,5 @@
-import { arraySlice } from "../../Source/Cesium.js";
-import { FeatureDetection } from "../../Source/Cesium.js";
+import { arraySlice } from "../../Source/Mcs.js";
+import { FeatureDetection } from "../../Source/Mcs.js";
 
 describe("Core/arraySlice", function () {
   var array = [1, 2, 3, 4, 5];

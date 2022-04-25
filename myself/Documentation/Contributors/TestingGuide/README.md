@@ -236,7 +236,7 @@ Tests are written in JavaScript using Jasmine. It is important to realize that t
 Here is a stripped down version of the tests:
 
 ```javascript
-import { Cartesian3 } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
 
 describe("Cartesian3", function () {
   it("construct with default values", function () {
@@ -722,7 +722,7 @@ This test is more cohesive and easier to debug than if it were written using a _
 As mentioned above, some tests are in the `'WebGL'` category. To assign a category to a suite, pass the category to `describe`.
 
 ```javascript
-import { DebugModelMatrixPrimitive } from "../../Source/Cesium.js";
+import { DebugModelMatrixPrimitive } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

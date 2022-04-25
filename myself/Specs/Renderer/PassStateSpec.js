@@ -1,4 +1,4 @@
-import { PassState } from "../../Source/Cesium.js";
+import { PassState } from "../../Source/Mcs.js";
 
 describe("Renderer/PassState", function () {
   it("creates a pass state", function () {

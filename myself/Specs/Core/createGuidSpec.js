@@ -1,4 +1,4 @@
-import { createGuid } from "../../Source/Cesium.js";
+import { createGuid } from "../../Source/Mcs.js";
 
 describe("Core/createGuid", function () {
   it("creates GUIDs", function () {

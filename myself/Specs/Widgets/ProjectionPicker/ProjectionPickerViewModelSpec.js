@@ -1,8 +1,8 @@
-import { OrthographicFrustum } from "../../../Source/Cesium.js";
-import { PerspectiveFrustum } from "../../../Source/Cesium.js";
-import { SceneMode } from "../../../Source/Cesium.js";
+import { OrthographicFrustum } from "../../../Source/Mcs.js";
+import { PerspectiveFrustum } from "../../../Source/Mcs.js";
+import { SceneMode } from "../../../Source/Mcs.js";
 import createScene from "../../createScene.js";
-import { ProjectionPickerViewModel } from "../../../Source/Cesium.js";
+import { ProjectionPickerViewModel } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/ProjectionPicker/ProjectionPickerViewModel",

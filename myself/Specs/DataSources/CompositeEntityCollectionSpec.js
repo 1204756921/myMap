@@ -1,14 +1,14 @@
-import { Iso8601 } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { BillboardGraphics } from "../../Source/Cesium.js";
-import { CompositeEntityCollection } from "../../Source/Cesium.js";
-import { CompositePositionProperty } from "../../Source/Cesium.js";
-import { CompositeProperty } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { Entity } from "../../Source/Cesium.js";
-import { EntityCollection } from "../../Source/Cesium.js";
+import { Iso8601 } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { BillboardGraphics } from "../../Source/Mcs.js";
+import { CompositeEntityCollection } from "../../Source/Mcs.js";
+import { CompositePositionProperty } from "../../Source/Mcs.js";
+import { CompositeProperty } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { Entity } from "../../Source/Mcs.js";
+import { EntityCollection } from "../../Source/Mcs.js";
 
 describe("DataSources/CompositeEntityCollection", function () {
   function CollectionListener() {

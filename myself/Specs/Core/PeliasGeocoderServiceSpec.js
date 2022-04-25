@@ -1,8 +1,8 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { GeocodeType } from "../../Source/Cesium.js";
-import { PeliasGeocoderService } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { GeocodeType } from "../../Source/Mcs.js";
+import { PeliasGeocoderService } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/PeliasGeocoderService", function () {
   it("constructor throws without url", function () {

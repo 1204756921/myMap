@@ -1,8 +1,8 @@
-import { clone } from "../Source/Cesium.js";
-import { defaultValue } from "../Source/Cesium.js";
-import { defined } from "../Source/Cesium.js";
-import { DeveloperError } from "../Source/Cesium.js";
-import { WebGLConstants } from "../Source/Cesium.js";
+import { clone } from "../Source/Mcs.js";
+import { defaultValue } from "../Source/Mcs.js";
+import { defined } from "../Source/Mcs.js";
+import { DeveloperError } from "../Source/Mcs.js";
+import { WebGLConstants } from "../Source/Mcs.js";
 
 function getWebGLStub(canvas, options) {
   var stub = clone(WebGLConstants);

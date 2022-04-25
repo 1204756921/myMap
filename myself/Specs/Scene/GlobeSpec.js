@@ -1,12 +1,12 @@
-import { CesiumTerrainProvider } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { Globe } from "../../Source/Cesium.js";
-import { SingleTileImageryProvider } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { HeadingPitchRoll } from "../../Source/Cesium.js";
-import { NearFarScalar } from "../../Source/Cesium.js";
+import { CesiumTerrainProvider } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { Globe } from "../../Source/Mcs.js";
+import { SingleTileImageryProvider } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { HeadingPitchRoll } from "../../Source/Mcs.js";
+import { NearFarScalar } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
 

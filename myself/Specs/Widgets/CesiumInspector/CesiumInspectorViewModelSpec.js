@@ -1,16 +1,16 @@
-import { defined } from "../../../Source/Cesium.js";
-import { GeometryInstance } from "../../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../../Source/Cesium.js";
-import { Rectangle } from "../../../Source/Cesium.js";
-import { RectangleGeometry } from "../../../Source/Cesium.js";
-import { WebMercatorTilingScheme } from "../../../Source/Cesium.js";
-import { EllipsoidSurfaceAppearance } from "../../../Source/Cesium.js";
-import { Globe } from "../../../Source/Cesium.js";
-import { GlobeSurfaceTile } from "../../../Source/Cesium.js";
-import { Primitive } from "../../../Source/Cesium.js";
-import { QuadtreeTile } from "../../../Source/Cesium.js";
+import { defined } from "../../../Source/Mcs.js";
+import { GeometryInstance } from "../../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../../Source/Mcs.js";
+import { Rectangle } from "../../../Source/Mcs.js";
+import { RectangleGeometry } from "../../../Source/Mcs.js";
+import { WebMercatorTilingScheme } from "../../../Source/Mcs.js";
+import { EllipsoidSurfaceAppearance } from "../../../Source/Mcs.js";
+import { Globe } from "../../../Source/Mcs.js";
+import { GlobeSurfaceTile } from "../../../Source/Mcs.js";
+import { Primitive } from "../../../Source/Mcs.js";
+import { QuadtreeTile } from "../../../Source/Mcs.js";
 import createScene from "../../createScene.js";
-import { CesiumInspectorViewModel } from "../../../Source/Cesium.js";
+import { CesiumInspectorViewModel } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/CesiumInspector/CesiumInspectorViewModel",

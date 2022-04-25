@@ -1,4 +1,4 @@
-import { VertexFormat } from "../../Source/Cesium.js";
+import { VertexFormat } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/VertexFormat", function () {

@@ -1,5 +1,5 @@
-import { defaultValue } from "../Source/Cesium.js";
-import { FeatureDetection } from "../Source/Cesium.js";
+import { defaultValue } from "../Source/Mcs.js";
+import { FeatureDetection } from "../Source/Mcs.js";
 
 function createMouseEvent(type, options) {
   options = defaultValue(options, defaultValue.EMPTY_OBJECT);

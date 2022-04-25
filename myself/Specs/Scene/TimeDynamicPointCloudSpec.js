@@ -1,27 +1,27 @@
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Clock } from "../../Source/Cesium.js";
-import { ClockStep } from "../../Source/Cesium.js";
-import { defaultValue } from "../../Source/Cesium.js";
-import { defined } from "../../Source/Cesium.js";
-import { HeadingPitchRange } from "../../Source/Cesium.js";
-import { HeadingPitchRoll } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
-import { Cesium3DTileStyle } from "../../Source/Cesium.js";
-import { ClippingPlane } from "../../Source/Cesium.js";
-import { ClippingPlaneCollection } from "../../Source/Cesium.js";
-import { DracoLoader } from "../../Source/Cesium.js";
-import { PointCloudEyeDomeLighting } from "../../Source/Cesium.js";
-import { ShadowMode } from "../../Source/Cesium.js";
-import { TimeDynamicPointCloud } from "../../Source/Cesium.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Clock } from "../../Source/Mcs.js";
+import { ClockStep } from "../../Source/Mcs.js";
+import { defaultValue } from "../../Source/Mcs.js";
+import { defined } from "../../Source/Mcs.js";
+import { HeadingPitchRange } from "../../Source/Mcs.js";
+import { HeadingPitchRoll } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
+import { Cesium3DTileStyle } from "../../Source/Mcs.js";
+import { ClippingPlane } from "../../Source/Mcs.js";
+import { ClippingPlaneCollection } from "../../Source/Mcs.js";
+import { DracoLoader } from "../../Source/Mcs.js";
+import { PointCloudEyeDomeLighting } from "../../Source/Mcs.js";
+import { ShadowMode } from "../../Source/Mcs.js";
+import { TimeDynamicPointCloud } from "../../Source/Mcs.js";
 import createCanvas from "../createCanvas.js";
 import createScene from "../createScene.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe(
   "Scene/TimeDynamicPointCloud",

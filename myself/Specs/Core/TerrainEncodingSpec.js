@@ -1,11 +1,11 @@
-import { AttributeCompression } from "../../Source/Cesium.js";
-import { AxisAlignedBoundingBox } from "../../Source/Cesium.js";
-import { Cartesian2 } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { TerrainEncoding } from "../../Source/Cesium.js";
-import { TerrainQuantization } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
+import { AttributeCompression } from "../../Source/Mcs.js";
+import { AxisAlignedBoundingBox } from "../../Source/Mcs.js";
+import { Cartesian2 } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { TerrainEncoding } from "../../Source/Mcs.js";
+import { TerrainQuantization } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
 
 describe("Core/TerrainEncoding", function () {
   var center;

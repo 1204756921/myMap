@@ -1,9 +1,9 @@
-import { defined } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { HeightmapEncoding } from "../../Source/Cesium.js";
-import { HeightmapTerrainData } from "../../Source/Cesium.js";
-import { TerrainData } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { defined } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { HeightmapEncoding } from "../../Source/Mcs.js";
+import { HeightmapTerrainData } from "../../Source/Mcs.js";
+import { TerrainData } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/HeightmapTerrainData", function () {
   it("conforms to TerrainData interface", function () {

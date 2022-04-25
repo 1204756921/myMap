@@ -1,6 +1,6 @@
-import { clone } from "../Source/Cesium.js";
-import { defaultValue } from "../Source/Cesium.js";
-import { Context } from "../Source/Cesium.js";
+import { clone } from "../Source/Mcs.js";
+import { defaultValue } from "../Source/Mcs.js";
+import { Context } from "../Source/Mcs.js";
 import createCanvas from "./createCanvas.js";
 import createFrameState from "./createFrameState.js";
 import getWebGLStub from "./getWebGLStub.js";

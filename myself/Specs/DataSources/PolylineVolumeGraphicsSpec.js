@@ -1,10 +1,10 @@
-import { Color } from "../../Source/Cesium.js";
-import { CornerType } from "../../Source/Cesium.js";
-import { DistanceDisplayCondition } from "../../Source/Cesium.js";
-import { ColorMaterialProperty } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { PolylineVolumeGraphics } from "../../Source/Cesium.js";
-import { ShadowMode } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { CornerType } from "../../Source/Mcs.js";
+import { DistanceDisplayCondition } from "../../Source/Mcs.js";
+import { ColorMaterialProperty } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { PolylineVolumeGraphics } from "../../Source/Mcs.js";
+import { ShadowMode } from "../../Source/Mcs.js";
 import testDefinitionChanged from "../testDefinitionChanged.js";
 import testMaterialDefinitionChanged from "../testMaterialDefinitionChanged.js";
 

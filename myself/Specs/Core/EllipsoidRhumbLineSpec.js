@@ -1,8 +1,8 @@
-import { Cartographic } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { EllipsoidGeodesic } from "../../Source/Cesium.js";
-import { EllipsoidRhumbLine } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
+import { Cartographic } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { EllipsoidGeodesic } from "../../Source/Mcs.js";
+import { EllipsoidRhumbLine } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
 
 describe("Core/EllipsoidRhumbLine", function () {
   var oneDegree = CesiumMath.RADIANS_PER_DEGREE;

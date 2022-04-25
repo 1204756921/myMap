@@ -1,7 +1,7 @@
-import { DynamicGeometryUpdater } from "../../Source/Cesium.js";
-import { Entity } from "../../Source/Cesium.js";
-import { GeometryUpdater } from "../../Source/Cesium.js";
-import { PrimitiveCollection } from "../../Source/Cesium.js";
+import { DynamicGeometryUpdater } from "../../Source/Mcs.js";
+import { Entity } from "../../Source/Mcs.js";
+import { GeometryUpdater } from "../../Source/Mcs.js";
+import { PrimitiveCollection } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe("DataSources/DynamicGeometryUpdater", function () {

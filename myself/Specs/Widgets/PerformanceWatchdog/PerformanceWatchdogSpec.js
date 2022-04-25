@@ -1,5 +1,5 @@
 import createScene from "../../createScene.js";
-import { PerformanceWatchdog } from "../../../Source/Cesium.js";
+import { PerformanceWatchdog } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/PerformanceWatchdog/PerformanceWatchdog",

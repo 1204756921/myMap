@@ -1,6 +1,6 @@
-import { PostProcessStage } from "../../Source/Cesium.js";
-import { PostProcessStageCollection } from "../../Source/Cesium.js";
-import { Tonemapper } from "../../Source/Cesium.js";
+import { PostProcessStage } from "../../Source/Mcs.js";
+import { PostProcessStageCollection } from "../../Source/Mcs.js";
+import { Tonemapper } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 import ViewportPrimitive from "../ViewportPrimitive.js";
 

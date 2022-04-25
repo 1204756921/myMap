@@ -1,10 +1,10 @@
-import { defaultValue } from "../Source/Cesium.js";
-import { GeographicProjection } from "../Source/Cesium.js";
-import { JulianDate } from "../Source/Cesium.js";
-import { Camera } from "../Source/Cesium.js";
-import { CreditDisplay } from "../Source/Cesium.js";
-import { FrameState } from "../Source/Cesium.js";
-import { JobScheduler } from "../Source/Cesium.js";
+import { defaultValue } from "../Source/Mcs.js";
+import { GeographicProjection } from "../Source/Mcs.js";
+import { JulianDate } from "../Source/Mcs.js";
+import { Camera } from "../Source/Mcs.js";
+import { CreditDisplay } from "../Source/Mcs.js";
+import { FrameState } from "../Source/Mcs.js";
+import { JobScheduler } from "../Source/Mcs.js";
 
 function createFrameState(context, camera, frameNumber, time) {
   // Mock frame-state for testing.

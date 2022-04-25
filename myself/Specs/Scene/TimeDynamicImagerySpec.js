@@ -1,12 +1,12 @@
-import { Clock } from "../../Source/Cesium.js";
-import { ClockStep } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { Request } from "../../Source/Cesium.js";
-import { RequestScheduler } from "../../Source/Cesium.js";
-import { RequestType } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { TimeDynamicImagery } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { Clock } from "../../Source/Mcs.js";
+import { ClockStep } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Request } from "../../Source/Mcs.js";
+import { RequestScheduler } from "../../Source/Mcs.js";
+import { RequestType } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { TimeDynamicImagery } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Scene/TimeDynamicImagery", function () {
   var clock = new Clock({

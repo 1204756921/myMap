@@ -1,6 +1,6 @@
-import { defined } from "../../Source/Cesium.js";
-import { getTimestamp } from "../../Source/Cesium.js";
-import { FrameRateMonitor } from "../../Source/Cesium.js";
+import { defined } from "../../Source/Mcs.js";
+import { getTimestamp } from "../../Source/Mcs.js";
+import { FrameRateMonitor } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

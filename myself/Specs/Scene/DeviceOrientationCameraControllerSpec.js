@@ -1,6 +1,6 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { DeviceOrientationCameraController } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { DeviceOrientationCameraController } from "../../Source/Mcs.js";
 import createCamera from "../createCamera.js";
 import createCanvas from "../createCanvas.js";
 import DomEventSimulator from "../DomEventSimulator.js";

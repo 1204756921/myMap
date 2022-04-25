@@ -1,7 +1,7 @@
-import { ClockRange } from "../../Source/Cesium.js";
-import { ClockStep } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { DataSourceClock } from "../../Source/Cesium.js";
+import { ClockRange } from "../../Source/Mcs.js";
+import { ClockStep } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { DataSourceClock } from "../../Source/Mcs.js";
 
 describe("DataSources/DataSourceClock", function () {
   it("merge assigns unassigned properties", function () {

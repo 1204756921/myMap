@@ -1,5 +1,5 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { CartographicGeocoderService } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { CartographicGeocoderService } from "../../Source/Mcs.js";
 
 describe("Core/CartographicGeocoderService", function () {
   var service = new CartographicGeocoderService();

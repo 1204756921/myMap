@@ -1,7 +1,7 @@
-import { JulianDate } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { PropertyBag } from "../../Source/Cesium.js";
-import { SampledProperty } from "../../Source/Cesium.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { PropertyBag } from "../../Source/Mcs.js";
+import { SampledProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/PropertyBag", function () {
   var time = JulianDate.now();

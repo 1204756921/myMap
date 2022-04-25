@@ -1,11 +1,11 @@
-import { decodeGoogleEarthEnterpriseData } from "../../Source/Cesium.js";
-import { defaultValue } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseMetadata } from "../../Source/Cesium.js";
-import { GoogleEarthEnterpriseTileInformation } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Request } from "../../Source/Cesium.js";
-import { Resource } from "../../Source/Cesium.js";
-import { when } from "../../Source/Cesium.js";
+import { decodeGoogleEarthEnterpriseData } from "../../Source/Mcs.js";
+import { defaultValue } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseMetadata } from "../../Source/Mcs.js";
+import { GoogleEarthEnterpriseTileInformation } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Request } from "../../Source/Mcs.js";
+import { Resource } from "../../Source/Mcs.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/GoogleEarthEnterpriseMetadata", function () {
   it("tileXYToQuadKey", function () {

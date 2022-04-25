@@ -1,4 +1,4 @@
-import { DistanceDisplayCondition } from "../../Source/Cesium.js";
+import { DistanceDisplayCondition } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/DistanceDisplayCondition", function () {

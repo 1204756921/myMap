@@ -1,8 +1,8 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { PolylinePipeline } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { PolylinePipeline } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
 
 describe("Core/PolylinePipeline", function () {
   it("wrapLongitude", function () {

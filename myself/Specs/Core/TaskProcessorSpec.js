@@ -1,7 +1,7 @@
-import { FeatureDetection } from "../../Source/Cesium.js";
-import { TaskProcessor } from "../../Source/Cesium.js";
+import { FeatureDetection } from "../../Source/Mcs.js";
+import { TaskProcessor } from "../../Source/Mcs.js";
 import absolutize from "../absolutize.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Core/TaskProcessor", function () {
   var taskProcessor;

@@ -1,5 +1,5 @@
-import { objectToQuery } from "../../Source/Cesium.js";
-import { queryToObject } from "../../Source/Cesium.js";
+import { objectToQuery } from "../../Source/Mcs.js";
+import { queryToObject } from "../../Source/Mcs.js";
 
 describe("Core/objectToQuery", function () {
   it("can encode data", function () {

@@ -1,6 +1,6 @@
-import { defaultValue } from "../Source/Cesium.js";
-import { getTimestamp } from "../Source/Cesium.js";
-import { when } from "../Source/Cesium.js";
+import { defaultValue } from "../Source/Mcs.js";
+import { getTimestamp } from "../Source/Mcs.js";
+import { when } from "../Source/Mcs.js";
 
 function pollToPromise(f, options) {
   options = defaultValue(options, defaultValue.EMPTY_OBJECT);

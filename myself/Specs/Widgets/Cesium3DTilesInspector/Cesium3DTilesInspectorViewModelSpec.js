@@ -1,9 +1,9 @@
-import { Cesium3DTileset } from "../../../Source/Cesium.js";
-import { Cesium3DTileStyle } from "../../../Source/Cesium.js";
-import { Globe } from "../../../Source/Cesium.js";
+import { Cesium3DTileset } from "../../../Source/Mcs.js";
+import { Cesium3DTileStyle } from "../../../Source/Mcs.js";
+import { Globe } from "../../../Source/Mcs.js";
 import createScene from "../../createScene.js";
-import { when } from "../../../Source/Cesium.js";
-import { Cesium3DTilesInspectorViewModel } from "../../../Source/Cesium.js";
+import { when } from "../../../Source/Mcs.js";
+import { Cesium3DTilesInspectorViewModel } from "../../../Source/Mcs.js";
 
 describe(
   "Widgets/Cesium3DTilesInspector/Cesium3DTilesInspectorViewModel",

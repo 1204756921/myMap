@@ -1,4 +1,4 @@
-import { subdivideArray } from "../../Source/Cesium.js";
+import { subdivideArray } from "../../Source/Mcs.js";
 
 describe("Core/subdivideArray", function () {
   it("Splits evenly divided arrays", function () {

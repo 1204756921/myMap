@@ -1,7 +1,7 @@
-import { WebGLConstants } from "../../Source/Cesium.js";
-import { WindingOrder } from "../../Source/Cesium.js";
-import { ContextLimits } from "../../Source/Cesium.js";
-import { RenderState } from "../../Source/Cesium.js";
+import { WebGLConstants } from "../../Source/Mcs.js";
+import { WindingOrder } from "../../Source/Mcs.js";
+import { ContextLimits } from "../../Source/Mcs.js";
+import { RenderState } from "../../Source/Mcs.js";
 import createContext from "../createContext.js";
 
 describe(

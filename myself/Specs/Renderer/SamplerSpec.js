@@ -1,6 +1,6 @@
-import { Sampler } from "../../Source/Cesium.js";
-import { TextureMinificationFilter } from "../../Source/Cesium.js";
-import { TextureWrap } from "../../Source/Cesium.js";
+import { Sampler } from "../../Source/Mcs.js";
+import { TextureMinificationFilter } from "../../Source/Mcs.js";
+import { TextureWrap } from "../../Source/Mcs.js";
 import createContext from "../createContext.js";
 
 describe(

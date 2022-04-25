@@ -1,6 +1,7 @@
 import { default as Color } from '../../Core/Color.js';
 import Overlay from '../mcsBaseMap/Overlay.js';
 import { defaultValue } from '../mcsUtil/defind';
+import { default as ImageMaterialProperty } from '../../DataSources/ImageMaterialProperty'
 /**
      * @constructor
      * @param {Object} options - 实体选项
@@ -22,6 +23,7 @@ export default class Polyline extends Overlay {
         this.color = defaultValue(options.color, Color.WHITE);
         this.width = defaultValue(options.width, 1);
         this.clampGround = defaultValue(options.clampGround, true);
+        this.img = defaultValue(options.image, null)
         this.keyArry = ['id', 'name', 'show', 'positions', 'width', 'color', 'clampGround'];
         this.options = options;
     }
@@ -35,6 +37,11 @@ export default class Polyline extends Overlay {
                 material: this.color,
             }
         };
+        if(this.img != null){
+             enti.polyline.material = new ImageMaterialProperty({
+                 image:this.img
+             })
+        }
         if (this.id && this.id != null) {
             enti.id = this.id;
         }

@@ -1,4 +1,4 @@
-import { Check } from "../../Source/Cesium.js";
+import { Check } from "../../Source/Mcs.js";
 
 describe("Core/Check", function () {
   describe("type checks", function () {

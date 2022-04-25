@@ -1,4 +1,4 @@
-import { LinearApproximation } from "../../Source/Cesium.js";
+import { LinearApproximation } from "../../Source/Mcs.js";
 
 describe("Core/LinearApproximation", function () {
   it("should produce correct results", function () {

@@ -1,10 +1,10 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { Quaternion } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { ConstantProperty } from "../../Source/Cesium.js";
-import { NodeTransformationProperty } from "../../Source/Cesium.js";
-import { TimeIntervalCollectionProperty } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { Quaternion } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { ConstantProperty } from "../../Source/Mcs.js";
+import { NodeTransformationProperty } from "../../Source/Mcs.js";
+import { TimeIntervalCollectionProperty } from "../../Source/Mcs.js";
 import testDefinitionChanged from "../testDefinitionChanged.js";
 
 describe("DataSources/NodeTransformationProperty", function () {

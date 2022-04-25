@@ -1,6 +1,6 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { DebugModelMatrixPrimitive } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { DebugModelMatrixPrimitive } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
 
 describe(

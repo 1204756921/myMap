@@ -1,6 +1,6 @@
-import { DataSourceCollection } from "../../Source/Cesium.js";
+import { DataSourceCollection } from "../../Source/Mcs.js";
 import MockDataSource from "../MockDataSource.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("DataSources/DataSourceCollection", function () {
   it("contains, get, getLength, and indexOf work", function () {

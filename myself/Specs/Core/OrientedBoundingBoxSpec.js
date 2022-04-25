@@ -1,15 +1,15 @@
-import { BoundingSphere } from "../../Source/Cesium.js";
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { Intersect } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Matrix3 } from "../../Source/Cesium.js";
-import { Occluder } from "../../Source/Cesium.js";
-import { OrientedBoundingBox } from "../../Source/Cesium.js";
-import { Plane } from "../../Source/Cesium.js";
-import { Quaternion } from "../../Source/Cesium.js";
-import { Rectangle } from "../../Source/Cesium.js";
+import { BoundingSphere } from "../../Source/Mcs.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { Intersect } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Matrix3 } from "../../Source/Mcs.js";
+import { Occluder } from "../../Source/Mcs.js";
+import { OrientedBoundingBox } from "../../Source/Mcs.js";
+import { Plane } from "../../Source/Mcs.js";
+import { Quaternion } from "../../Source/Mcs.js";
+import { Rectangle } from "../../Source/Mcs.js";
 import createPackableSpecs from "../createPackableSpecs.js";
 
 describe("Core/OrientedBoundingBox", function () {

@@ -1,9 +1,9 @@
-import { BoundingSphere } from "../Source/Cesium.js";
-import { JulianDate } from "../Source/Cesium.js";
-import { Math as CesiumMath } from "../Source/Cesium.js";
-import { BoundingSphereState } from "../Source/Cesium.js";
-import { EllipsoidGeometryUpdater } from "../Source/Cesium.js";
-import { PrimitiveCollection } from "../Source/Cesium.js";
+import { BoundingSphere } from "../Source/Mcs.js";
+import { JulianDate } from "../Source/Mcs.js";
+import { Math as CesiumMath } from "../Source/Mcs.js";
+import { BoundingSphereState } from "../Source/Mcs.js";
+import { EllipsoidGeometryUpdater } from "../Source/Mcs.js";
+import { PrimitiveCollection } from "../Source/Mcs.js";
 import createDynamicProperty from "./createDynamicProperty.js";
 import pollToPromise from "./pollToPromise.js";
 

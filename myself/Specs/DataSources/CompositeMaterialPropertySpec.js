@@ -1,10 +1,10 @@
-import { Color } from "../../Source/Cesium.js";
-import { JulianDate } from "../../Source/Cesium.js";
-import { TimeInterval } from "../../Source/Cesium.js";
-import { TimeIntervalCollection } from "../../Source/Cesium.js";
-import { ColorMaterialProperty } from "../../Source/Cesium.js";
-import { CompositeMaterialProperty } from "../../Source/Cesium.js";
-import { GridMaterialProperty } from "../../Source/Cesium.js";
+import { Color } from "../../Source/Mcs.js";
+import { JulianDate } from "../../Source/Mcs.js";
+import { TimeInterval } from "../../Source/Mcs.js";
+import { TimeIntervalCollection } from "../../Source/Mcs.js";
+import { ColorMaterialProperty } from "../../Source/Mcs.js";
+import { CompositeMaterialProperty } from "../../Source/Mcs.js";
+import { GridMaterialProperty } from "../../Source/Mcs.js";
 
 describe("DataSources/CompositeMaterialProperty", function () {
   it("default constructor has expected values", function () {

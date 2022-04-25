@@ -1,4 +1,4 @@
-import { AssociativeArray } from "../../Source/Cesium.js";
+import { AssociativeArray } from "../../Source/Mcs.js";
 
 describe("Core/AssociativeArray", function () {
   it("constructor has expected default values", function () {

@@ -1,5 +1,5 @@
-import { Cesium3DTilePass } from "../../Source/Cesium.js";
-import { Cesium3DTilePassState } from "../../Source/Cesium.js";
+import { Cesium3DTilePass } from "../../Source/Mcs.js";
+import { Cesium3DTilePassState } from "../../Source/Mcs.js";
 
 describe("Scene/Cesium3DTilePassState", function () {
   it("sets default values", function () {

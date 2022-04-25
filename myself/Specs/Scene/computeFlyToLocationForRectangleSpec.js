@@ -1,9 +1,9 @@
-import { Rectangle } from "../../Source/Cesium.js";
-import { computeFlyToLocationForRectangle } from "../../Source/Cesium.js";
-import { Globe } from "../../Source/Cesium.js";
-import { SceneMode } from "../../Source/Cesium.js";
+import { Rectangle } from "../../Source/Mcs.js";
+import { computeFlyToLocationForRectangle } from "../../Source/Mcs.js";
+import { Globe } from "../../Source/Mcs.js";
+import { SceneMode } from "../../Source/Mcs.js";
 import createScene from "../createScene.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 import MockTerrainProvider from "../MockTerrainProvider.js";
 
 describe("Scene/computeFlyToLocationForRectangle", function () {

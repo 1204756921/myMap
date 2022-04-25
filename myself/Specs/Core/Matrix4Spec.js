@@ -1,10 +1,10 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Cartesian4 } from "../../Source/Cesium.js";
-import { Math as CesiumMath } from "../../Source/Cesium.js";
-import { Matrix3 } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { Quaternion } from "../../Source/Cesium.js";
-import { TranslationRotationScale } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Cartesian4 } from "../../Source/Mcs.js";
+import { Math as CesiumMath } from "../../Source/Mcs.js";
+import { Matrix3 } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { Quaternion } from "../../Source/Mcs.js";
+import { TranslationRotationScale } from "../../Source/Mcs.js";
 
 describe("Core/Matrix4", function () {
   it("default constructor creates values array with all zeros.", function () {

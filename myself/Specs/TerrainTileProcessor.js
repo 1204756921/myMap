@@ -1,9 +1,9 @@
-import { clone } from "../Source/Cesium.js";
-import { Texture } from "../Source/Cesium.js";
-import { GlobeSurfaceTile } from "../Source/Cesium.js";
-import { ImageryLayer } from "../Source/Cesium.js";
-import { TerrainState } from "../Source/Cesium.js";
-import { when } from "../Source/Cesium.js";
+import { clone } from "../Source/Mcs.js";
+import { Texture } from "../Source/Mcs.js";
+import { GlobeSurfaceTile } from "../Source/Mcs.js";
+import { ImageryLayer } from "../Source/Mcs.js";
+import { TerrainState } from "../Source/Mcs.js";
+import { when } from "../Source/Mcs.js";
 
 function TerrainTileProcessor(
   frameState,

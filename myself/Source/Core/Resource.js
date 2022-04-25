@@ -1335,7 +1335,6 @@ Resource.prototype._makeRequest = function (options) {
 
   var request = resource.request;
   request.url = resource.url;
-  console.log(request.url);
   request.requestFunction = function () {
     var responseType = options.responseType;
     var headers = combine(options.headers, resource.headers);

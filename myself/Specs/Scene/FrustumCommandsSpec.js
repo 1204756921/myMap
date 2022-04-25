@@ -1,5 +1,5 @@
-import { Pass } from "../../Source/Cesium.js";
-import { FrustumCommands } from "../../Source/Cesium.js";
+import { Pass } from "../../Source/Mcs.js";
+import { FrustumCommands } from "../../Source/Mcs.js";
 
 describe("Scene/FrustumCommands", function () {
   it("constructs without arguments", function () {

@@ -1,10 +1,10 @@
-import { Ellipsoid } from "../../Source/Cesium.js";
-import { GeographicTilingScheme } from "../../Source/Cesium.js";
-import { WebMercatorTilingScheme } from "../../Source/Cesium.js";
-import { GridImageryProvider } from "../../Source/Cesium.js";
-import { ImageryProvider } from "../../Source/Cesium.js";
+import { Ellipsoid } from "../../Source/Mcs.js";
+import { GeographicTilingScheme } from "../../Source/Mcs.js";
+import { WebMercatorTilingScheme } from "../../Source/Mcs.js";
+import { GridImageryProvider } from "../../Source/Mcs.js";
+import { ImageryProvider } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Scene/GridImageryProvider", function () {
   it("conforms to ImageryProvider interface", function () {

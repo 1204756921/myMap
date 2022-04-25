@@ -1,7 +1,7 @@
-import { Resource } from "../../Source/Cesium.js";
-import { DiscardEmptyTileImagePolicy } from "../../Source/Cesium.js";
+import { Resource } from "../../Source/Mcs.js";
+import { DiscardEmptyTileImagePolicy } from "../../Source/Mcs.js";
 import pollToPromise from "../pollToPromise.js";
-import { when } from "../../Source/Cesium.js";
+import { when } from "../../Source/Mcs.js";
 
 describe("Scene/DiscardEmptyTileImagePolicy", function () {
   afterEach(function () {

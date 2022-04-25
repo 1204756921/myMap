@@ -1,14 +1,14 @@
-import { Cartesian3 } from "../../Source/Cesium.js";
-import { Color } from "../../Source/Cesium.js";
-import { HeadingPitchRange } from "../../Source/Cesium.js";
-import { HeadingPitchRoll } from "../../Source/Cesium.js";
-import { Matrix4 } from "../../Source/Cesium.js";
-import { Transforms } from "../../Source/Cesium.js";
-import { Batched3DModel3DTileContent } from "../../Source/Cesium.js";
-import { Cesium3DTilePass } from "../../Source/Cesium.js";
-import { ClippingPlane } from "../../Source/Cesium.js";
-import { ClippingPlaneCollection } from "../../Source/Cesium.js";
-import { Model } from "../../Source/Cesium.js";
+import { Cartesian3 } from "../../Source/Mcs.js";
+import { Color } from "../../Source/Mcs.js";
+import { HeadingPitchRange } from "../../Source/Mcs.js";
+import { HeadingPitchRoll } from "../../Source/Mcs.js";
+import { Matrix4 } from "../../Source/Mcs.js";
+import { Transforms } from "../../Source/Mcs.js";
+import { Batched3DModel3DTileContent } from "../../Source/Mcs.js";
+import { Cesium3DTilePass } from "../../Source/Mcs.js";
+import { ClippingPlane } from "../../Source/Mcs.js";
+import { ClippingPlaneCollection } from "../../Source/Mcs.js";
+import { Model } from "../../Source/Mcs.js";
 import Cesium3DTilesTester from "../Cesium3DTilesTester.js";
 import createScene from "../createScene.js";
 

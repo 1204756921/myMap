@@ -1,5 +1,5 @@
-import { Clock } from "../../../Source/Cesium.js";
-import { Timeline } from "../../../Source/Cesium.js";
+import { Clock } from "../../../Source/Mcs.js";
+import { Timeline } from "../../../Source/Mcs.js";
 
 describe("Widgets/Timeline/Timeline", function () {
   var container;
